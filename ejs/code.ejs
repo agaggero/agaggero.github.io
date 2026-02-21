@@ -1,6 +1,7 @@
 ```{=html}
 <% for (const item of items) { %>
-    <b><a href="<%- item.codelink %>"><%= item.title %></a></b><br/>
+    <div style="margin-bottom: 1.2em;">
+    <b><%= item.title %></b><br/>
         <% if (item.coauthors) { %>
             <% if (item.coauthors.length == 1) { %>
                 Joint with <a href="<%- item.coauthors[0].link %>"><%= item.coauthors[0].name %></a>.<br/>
@@ -30,17 +31,32 @@
     <% if (item.note) { %>
         <i><%= item.note %></i><br/>
     <% } %>
-    <% if (item.slideslink) { %> 
-        <a href="<%- item.slideslink %>"> 
+    <% if (item.websitelink) { %>
+        <a href="<%- item.websitelink %>">
+            <button type="button" class="btn btn-outline-primary btn-sm scale">Website</button>
+        </a>
+    <% } %>
+    <% if (item.repolink) { %>
+        <a href="<%- item.repolink %>">
+            <button type="button" class="btn btn-outline-primary btn-sm scale">Code</button>
+        </a>
+    <% } %>
+    <% if (item.slideslink) { %>
+        <a href="<%- item.slideslink %>">
             <button type="button" class="btn btn-outline-primary btn-sm scale">Slides</button>
         </a>
     <% } %>
-    <% if (item.videolink) { %> 
-        <a href="<%- item.videolink %>"> 
+    <% if (item.videolink) { %>
+        <a href="<%- item.videolink %>">
             <button type="button" class="btn btn-outline-primary btn-sm scale">Video</button>
         </a>
     <% } %>
+    <% if (item.notebooklink) { %>
+        <a href="<%- item.notebooklink %>">
+            <button type="button" class="btn btn-outline-primary btn-sm scale">Notebook</button>
+        </a>
+    <% } %>
 
-    <br/>
+    </div>
 <% } %>
 ```

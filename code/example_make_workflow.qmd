@@ -5,7 +5,7 @@ date-format: "YYYY"
 format: 
   html:
     page-layout: article
-codelink: "https://github.com/rgreminger/example-make-workflow"
+repolink: "https://github.com/rgreminger/example-make-workflow"
 
 # Other links for adding buttons: slidelink, video link.
 # Other options for links or journal information are not available for code. 
