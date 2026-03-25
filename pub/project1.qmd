@@ -2,11 +2,16 @@
 title: "Publication 1" 
 date: "01-01-2023" # publication date -> year will be in the publication list 
 date-format: "YYYY" # only display year in item page 
-# Below add respective buttons to the list in the research page. To remove buttons that are not needed, just remove the respective link here. 
-publink: "https://pubsonline.informs.org/" # "Paper" button 
-wplink: "https://arxiv.org/"  # "Working Paper" button
-codelink: "https://github.com/" # "Code" button
-videolink: "https://www.youtube.com/" # "Video" button
+# Below add respective buttons to the list in the research page. Add entries to the links list; each entry needs a url and a label.
+links:
+  - url: "https://pubsonline.informs.org/"
+    label: "Paper"
+  - url: "https://arxiv.org/"
+    label: "Working Paper"
+  - url: "https://github.com/"
+    label: "Code"
+  - url: "https://www.youtube.com/"
+    label: "Video"
 # Publication information, which appears . 
 journ: "Journal of Interesting Research" 
 issue: "1(1):1-30"

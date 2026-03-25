@@ -2,8 +2,11 @@
 title: "Working Paper 1"
 date: "2024"
 date-format: "YYYY"
-wplink: "https://arxiv.org/"
-codelink: "https://github.com/"
+links:
+  - url: "https://arxiv.org/"
+    label: "Working Paper"
+  - url: "https://github.com/"
+    label: "Code"
 coauthors:
   - name: "Jane Doe"
     link: "https://link.to.website/"

@@ -5,12 +5,12 @@ date-format: "YYYY"
 format: 
   html:
     page-layout: article
-repolink: "https://github.com/rgreminger/example-make-workflow"
+links:
+  - url: "https://github.com/rgreminger/example-make-workflow"
+    label: "GitHub"
 
-# Other links for adding buttons: slidelink, video link.
-# Other options for links or journal information are not available for code. 
-
-# Below, write a brief explanation on the purpose of the code/repository. This is what will be displayed in the list. 
+# Add buttons by adding entries to the links list above. Each entry needs a url and a label.
+# Below, write a brief explanation on the purpose of the code/repository. This is what will be displayed in the list.
 ---
 
-Github repository providing a basic example for a Gnu make pipeline to implement a reproducible research workflow.
+GitHub repository providing a basic example for a GNU make pipeline to implement a reproducible research workflow.

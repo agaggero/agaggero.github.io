@@ -31,25 +31,12 @@
     <% if (item.note) { %>
         <i><%= item.note %></i><br/>
     <% } %>
-    <% if (item.wplink) { %> 
-        <a href="<%- item.wplink %>"> 
-            <button type="button" class="btn btn-outline-primary btn-sm scale">Working Paper</button>
-        </a>
-    <% } %>
-    <% if (item.slideslink) { %> 
-        <a href="<%- item.slideslink %>"> 
-            <button type="button" class="btn btn-outline-primary btn-sm scale">Slides</button>
-        </a>
-    <% } %>
-    <% if (item.videolink) { %> 
-        <a href="<%- item.videolink %>"> 
-            <button type="button" class="btn btn-outline-primary btn-sm scale">Video</button>
-        </a>
-    <% } %>
-    <% if (item.codelink) { %> 
-        <a href="<%- item.codelink %>"> 
-            <button type="button" class="btn btn-outline-primary btn-sm scale">Code</button>
-        </a>
+    <% if (item.links) { %>
+        <% for (const link of item.links) { %>
+            <a href="<%- link.url %>">
+                <button type="button" class="btn btn-outline-primary btn-sm scale"><%= link.label %></button>
+            </a>
+        <% } %>
     <% } %>
     </div>
     <div class="image_list g-col-8 g-col-lg-4 g-col-md-3 g-col-sm-3"> 
