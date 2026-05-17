@@ -170,7 +170,7 @@ ul.task-list li input[type="checkbox"] {
 //  - Detail pages without a Spanish equivalent (e.g., pub/foo.html)
 //    leave the flag toggle pointing to the respective language home.
 (function () {
-  document.addEventListener('DOMContentLoaded', function () {
+  function rewriteNav() {
     const path = window.location.pathname;
     const filename = path.split('/').pop() || 'index.html';
     const isES = filename.endsWith('.es.html');
@@ -203,15 +203,23 @@ ul.task-list li input[type="checkbox"] {
 
       // Regular nav link on a Spanish page → rewrite to .es.html
       if (isES) {
-        for (const en in enToEs) {
-          if (href.endsWith('/' + en) || href === en) {
-            link.setAttribute('href', href.replace(en, enToEs[en]));
-            return;
-          }
+        const fileMatch = href.match(/([^/]+\.html)$/);
+        if (!fileMatch) return;
+        const page = fileMatch[1];
+        if (page in enToEs) {
+          link.setAttribute('href', href.replace(new RegExp(page + '$'), enToEs[page]));
         }
       }
     });
-  });
+  }
+
+  // Run immediately if DOM is already parsed (common when included after body),
+  // otherwise wait for DOMContentLoaded.
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', rewriteNav);
+  } else {
+    rewriteNav();
+  }
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
