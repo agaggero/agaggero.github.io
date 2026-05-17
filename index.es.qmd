@@ -23,6 +23,10 @@ about:
           text: CV
 ---
 
+::: {style="text-align: right; margin-bottom: 1em;"}
+[🇬🇧 View in English](index.html){.btn .btn-sm .btn-outline-secondary}
+:::
+
 Uso microeconometría aplicada para investigar preguntas en salud, educación y comportamiento: por qué un diagnóstico de diabetes cambia los hábitos diarios, por qué la hora del día de un examen importa más de lo que pensamos, o qué hace una pandemia con la salud mental de las personas mayores. Enseño los métodos detrás de estas respuestas en la Universidad de Granada.
 
 ## Novedades
