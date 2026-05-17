@@ -4,9 +4,12 @@ project:
   resources:
     - files/cv.pdf
     - .nojekyll
+    - robots.txt
 
 website:
   title: "Alessio Gaggero"
+  site-url: https://agaggero.github.io
+  description: "Alessio Gaggero — Assistant Professor of Quantitative Methods at the Universidad de Granada. Applied microeconometrics in health, education, and behavioural economics."
   navbar:
     left:
       - href: index.qmd
