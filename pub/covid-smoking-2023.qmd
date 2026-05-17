@@ -1,0 +1,33 @@
+---
+title: "The Consequences of the Coronavirus Disease 2019 Pandemic on Smoking Behavior: Evidence from the English Longitudinal Study of Ageing"
+date: "01-01-2023"
+date-format: "YYYY"
+summary: "Using fixed-effects regressions on the English Longitudinal Study of Ageing (N=60,160), I find a significant positive effect of the COVID-19 pandemic on smoking behaviour in older adults, stronger for men and the employed."
+journ: "Nicotine & Tobacco Research"
+issue: ""
+links:
+  - url: "https://doi.org/10.1093/ntr/ntac097"
+    label: "DOI"
+
+format:
+  html:
+    page-layout: article
+    template-partials:
+      - "../partials/title-block.html"
+---
+
+### Abstract
+
+**Introduction.** Smoking is a risk factor for the progression of COVID-19, with smokers having higher odds of COVID-19 progression than never-smokers. This study presents novel findings on the effect of the COVID-19 pandemic on smoking behavior in older adults.
+
+**Methods.** Panel data were obtained from the English Longitudinal Study of Ageing (N = 60,160; 12% smokers; 55% women; 62% married; mean age = 67 years; 23% employed). Fixed-effect regression models were used to estimate the extent to which the COVID-19 pandemic affected smoking behavior. A separate model was estimated for men, women, employed, and retired.
+
+**Results.** The findings suggest a significant and positive effect of the COVID-19 pandemic on smoking behavior (β = 0.024; P < .001). The estimated effects were stronger for men and for the sample of individuals reporting being employed.
+
+**Conclusions.** I provide robust evidence of the effect of the COVID-19 pandemic on smoking behavior using the English Longitudinal Study of Ageing. This large and representative dataset is uniquely suited for the analysis. I find evidence that the proportion of smokers has increased significantly as a result of the COVID-19 pandemic.
+
+**Implications.** In the United Kingdom, the proportion of smokers increased significantly as a consequence of the COVID-19 pandemic. These findings suggest that smoking behavior may have been used as a mechanism to cope with depression, stress, and anxiety due to the COVID-19 outbreak. To the extent to which smoking behavior has been used as a coping mechanism to deal with job-related issues, targeted policy action to provide financial stability to those in worse economic situations may have beneficial effects on smoking behavior.
+
+### Key figure or table
+
+*(Drop an image into `images/figures/` and reference it like `![Caption.](../images/figures/your-file.png){fig-alt="Alt text"}` — otherwise this section stays empty on render.)*

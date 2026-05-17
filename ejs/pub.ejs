@@ -27,9 +27,13 @@
             <% } %>
         <% } %>
     <% } %>
-    <i><%= item.journ %></i>, <%= new Date(item.date).getFullYear() %>, <%= item.issue %>.<br/>
+    <i><%= item.journ %></i>, <%= new Date(item.date).getFullYear() %><% if (item.issue) { %>, <%= item.issue %><% } %>.<br/>
     <% if (item.note) { %>
         <i><%= item.note %></i><br/>
+    <% } %>
+
+    <% if (item.summary) { %>
+        <p style="margin-top: 0.4em; margin-bottom: 0.6em; opacity: 0.85; font-size: 0.95em;"><%= item.summary %></p>
     <% } %>
 
     <% if (item.links) { %>

@@ -31,6 +31,11 @@
     <% if (item.note) { %>
         <i><%= item.note %></i><br/>
     <% } %>
+
+    <% if (item.summary) { %>
+        <p style="margin-top: 0.4em; margin-bottom: 0.6em; opacity: 0.85; font-size: 0.95em;"><%= item.summary %></p>
+    <% } %>
+
     <% if (item.links) { %>
         <% for (const link of item.links) { %>
             <a href="<%- link.url %>">

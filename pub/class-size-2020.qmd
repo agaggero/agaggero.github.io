@@ -1,0 +1,27 @@
+---
+title: "Does class size matter in postgraduate education?"
+date: "01-01-2020"
+date-format: "YYYY"
+summary: "Using administrative data from a UK Russell Group university and a regression discontinuity design around a class-size policy change, we estimate the impact of class size on postgraduate grades."
+journ: "The Manchester School"
+issue: ""
+links:
+  - url: "https://doi.org/10.1111/manc.12305"
+    label: "DOI"
+coauthors:
+  - name: "Getinet Haile"
+
+format:
+  html:
+    page-layout: article
+    template-partials:
+      - "../partials/title-block.html"
+---
+
+### Abstract
+
+The paper examines the impact of class size on postgraduate (PG) grades using administrative data from one of the largest Schools of a Russell Group University in the UK. As well as estimating fixed effects models on the population of PG candidates in the School, we exploit a policy change aimed at reducing class size to implement a regression discontinuity design. We find that class size does impact overall grades adversely; and the policy aimed at reducing class size grades favourably. Our findings are robust to alternative specifications as well as being supported by the validity tests we conducted.
+
+### Key figure or table
+
+*(Drop an image into `images/figures/` and reference it like `![Caption.](../images/figures/your-file.png){fig-alt="Alt text"}` — otherwise this section stays empty on render.)*

@@ -1,0 +1,30 @@
+---
+title: Docencia
+lang: es
+---
+
+## Cursos
+
+### Actuales
+
+- **Econometría I**, Universidad de Granada — *descripción del curso por añadir.*
+- **Técnicas Cuantitativas I**, Universidad de Granada — *descripción del curso por añadir.*
+
+### Anteriores
+
+- *(por añadir)*
+
+## Cursos de doctorado
+
+Imparto módulos cortos de doctorado sobre **inferencia causal para la microeconometría aplicada**:
+
+- Marco de resultados potenciales
+- Experimentos aleatorios
+- Regresión por discontinuidad (RDD)
+- Diferencias en diferencias (DiD)
+
+Los módulos están disponibles para impartirse en otras instituciones y programas de doctorado, en inglés o español — [escríbeme](mailto:alessiogaggero@ugr.es) si te interesa.
+
+## Proyectos docentes
+
+Estoy desarrollando enfoques de aprendizaje basado en la indagación y socráticos para la enseñanza de métodos cuantitativos a nivel de grado. Más información a medida que el trabajo avance.

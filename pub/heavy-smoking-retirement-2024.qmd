@@ -1,0 +1,35 @@
+---
+title: "The effect of heavy smoking on retirement risk: A mendelian randomisation analysis"
+date: "01-01-2024"
+date-format: "YYYY"
+summary: "A time-to-event Mendelian Randomisation analysis in 8,164 ELSA participants, using a polygenic risk score as an instrument to identify the causal effect of heavy smoking on retirement risk."
+journ: "Addictive Behaviors"
+issue: ""
+links:
+  - url: "https://doi.org/10.1016/j.addbeh.2024.108078"
+    label: "DOI"
+coauthors:
+  - name: "Olesya Ajnakina"
+  - name: "Eugenio Zucchelli"
+  - name: "Ruth A. Hackett"
+
+format:
+  html:
+    page-layout: article
+    template-partials:
+      - "../partials/title-block.html"
+---
+
+### Abstract
+
+**Background and aims.** The extent to which heavy smoking and retirement risk are causally related remains to be determined. To overcome the endogeneity of heavy smoking behaviour, we employed a novel approach by exploiting the genetic predisposition to heavy smoking, as measured with a polygenic risk score (PGS), in a Mendelian Randomisation approach.
+
+**Methods.** 8,164 participants (mean age 68.86 years) from the English Longitudinal Study of Ageing had complete data on smoking behaviour, employment and a heavy smoking PGS. Heavy smoking was indexed as smoking at least 20 cigarettes a day. A time-to-event Mendelian Randomization (MR) analysis, using a complementary log–log (cloglog) link function, was employed to model the retirement risk.
+
+**Results.** Our results show that being a heavy smoker significantly increases the risk of retirement (β = 1.324, standard error = 0.622, p < 0.05). Results were robust to a battery of checks and a placebo analysis considering the never-smokers.
+
+**Conclusions.** Overall, our findings support a causal pathway from heavy smoking to earlier retirement.
+
+### Key figure or table
+
+*(Drop an image into `images/figures/` and reference it like `![Caption.](../images/figures/your-file.png){fig-alt="Alt text"}` — otherwise this section stays empty on render.)*

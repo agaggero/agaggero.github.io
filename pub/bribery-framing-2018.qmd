@@ -1,0 +1,28 @@
+---
+title: "Framing effects on bribery behaviour: experimental evidence from China and Uganda"
+date: "01-01-2018"
+date-format: "YYYY"
+summary: "We replicate a one-shot bribery game in two highly corrupt countries — China and Uganda — to test whether social-context framing changes bribery behaviour. Strong framing effects show up for Uganda, but not for China."
+journ: "Journal of the Economic Science Association"
+issue: ""
+links:
+  - url: "https://doi.org/10.1007/s40881-018-0049-2"
+    label: "DOI"
+coauthors:
+  - name: "Simon Appleton"
+  - name: "Lina Song"
+
+format:
+  html:
+    page-layout: article
+    template-partials:
+      - "../partials/title-block.html"
+---
+
+### Abstract
+
+In this study we investigate the effect of framing on bribery behaviour. To do this, we replicate Barr and Serra (Exp Econ, 12(4):488–503, 2009) and carry out a simple one-shot bribery game that mimics corruption. In one treatment, we presented the experiment in a framed version, in which wording was embedded with social context; in the other, we removed the social context and presented the game in a neutral manner. The contribution of this paper is that it offers a comparison of framing effects in two highly corrupt countries: China and Uganda. Our results provide evidence of strong and significant framing effects for Uganda, but not for China.
+
+### Key figure or table
+
+*(Drop an image into `images/figures/` and reference it like `![Caption.](../images/figures/your-file.png){fig-alt="Alt text"}` — otherwise this section stays empty on render.)*

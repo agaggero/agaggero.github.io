@@ -1,0 +1,29 @@
+---
+title: "Disability in Uganda: a medical intervention to measure gendered impacts on functional independence and labour-market outcomes"
+date: "01-01-2021"
+date-format: "YYYY"
+summary: "Using data from an orthotic intervention in Kampala, Uganda, we estimate the health and economic impacts of providing orthotic equipment to adults with lower-limb disabilities — with noticeably gendered effects on functional mobility and earnings."
+journ: "Oxford Development Studies"
+issue: ""
+links:
+  - url: "https://doi.org/10.1080/13600818.2021.1959539"
+    label: "DOI"
+coauthors:
+  - name: "A. Abubakar"
+  - name: "Sarah Bridges"
+  - name: "Trudy Owens"
+
+format:
+  html:
+    page-layout: article
+    template-partials:
+      - "../partials/title-block.html"
+---
+
+### Abstract
+
+Using data from an orthotic intervention in Kampala, Uganda, this paper estimates the health and economic impacts of providing orthotic equipment to adults with lower limb disabilities. We examine changes to: (i) functional mobility and (ii) labour market outcomes, including type of employment and monthly earnings. One year after the intervention, the effects are noticeably gendered; men exhibit an improvement in their level of functional mobility, while women face little change or a reduction in their levels. In terms of labour market outcomes, for men the intervention leads to an increase in monthly earnings, which is partly due to a switch from self- to wage employment. Effects on female labour market outcomes generate more nuanced results. Earnings increase for women, although the overall effect is much smaller. Taking into account the intensity of equipment use, our Wald estimates reveal larger marginal effects on both mobility and earnings.
+
+### Key figure or table
+
+*(Drop an image into `images/figures/` and reference it like `![Caption.](../images/figures/your-file.png){fig-alt="Alt text"}` — otherwise this section stays empty on render.)*

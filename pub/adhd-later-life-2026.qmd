@@ -1,0 +1,30 @@
+---
+title: "Genetic risk for ADHD and later-life health and wellbeing: individual and spousal spillovers"
+date: "01-01-2026"
+date-format: "YYYY"
+summary: "Using polygenic scores in ELSA, we estimate the relationship between genetic predisposition to ADHD and later-life health, documenting cross-spousal spillovers concentrated on women, the less educated, and poorer households."
+journ: "The Journal of the Economics of Ageing"
+issue: ""
+links:
+  - url: "https://doi.org/10.1016/j.jeoa.2026.100619"
+    label: "DOI"
+  - url: "https://nadaesgratis.es/dolores-jimenez/riesgo-genetico-de-tdah-salud-en-adultos-mayores-y-efectos-de-desbordamiento-en-la-pareja"
+    label: "Blog (Nada es Gratis)"
+coauthors:
+  - name: "Joan Gil"
+  - name: "Dolores Jiménez-Rubio"
+
+format:
+  html:
+    page-layout: article
+    template-partials:
+      - "../partials/title-block.html"
+---
+
+### Abstract
+
+The objective of this paper is twofold. First, we aim to provide evidence on the relationship between genetic predisposition to attention deficit hyperactivity disorder (ADHD) and later-life health outcomes. Additionally, we investigate cross-spousal spillovers on both physical and mental health associated with genetic risk for this condition. Leveraging rich data for individuals aged 50+ and their partners in England, our findings indicate poorer general wellbeing, physical and mental health among older individuals with a higher genetic risk of experiencing ADHD. Moreover, these associations are substantially larger for older women and individuals who are unmarried, relatively less educated and less wealthy. Our results also show that male partner's genetic risk for ADHD negatively affects the health of their female partners, whereas female genetic risk predisposition does not appear to affect the health of their male partners. Moreover, these adverse effects on women are stronger among those who are relatively less educated and live in relatively poorer households. Finally, we present a number of robustness tests which validate the reliability of our approach.
+
+### Key figure or table
+
+*(Drop an image into `images/figures/` and reference it like `![Caption.](../images/figures/your-file.png){fig-alt="Alt text"}` — otherwise this section stays empty on render.)*

@@ -1,0 +1,29 @@
+---
+title: "Youth Unemployment and Earnings in Africa: Evidence from Tanzanian Retrospective Data"
+date: "01-01-2017"
+date-format: "YYYY"
+summary: "Using a unique dataset of individual labour-market histories in urban Tanzania, we estimate how four entry states — wage employment, self-employment, family work, and unemployment — shape adult earnings, finding evidence of an entrapment effect."
+journ: "Journal of African Economies"
+issue: "26(2): 119–139"
+links:
+  - url: "https://doi.org/10.1093/jae/ejw020"
+    label: "DOI"
+coauthors:
+  - name: "Sarah Bridges"
+  - name: "Louise Fox"
+  - name: "Trudy Owens"
+
+format:
+  html:
+    page-layout: article
+    template-partials:
+      - "../partials/title-block.html"
+---
+
+### Abstract
+
+We exploit a unique data set of individual labour market histories in urban Tanzania to estimate the effect of early labour market experiences on adult labour market outcomes. We consider four labour market entry states—wage employment, self-employment, unpaid worker in the family business and unemployed job-seeker—and estimate how final earnings are associated with each entry state. The findings suggest that how individuals enter the labour market does matter for final earnings. We find that an initial period spent in wage employment is associated with an important earnings premium. We interpret this finding as evidence of the entrapment hypothesis, in that, people who enter the labour market in more disadvantaged positions, such as in the household enterprise, either as self-employed or as unpaid family workers, suffer a penalty in their future earnings. These findings persist after controlling for family specific fixed effects.
+
+### Key figure or table
+
+*(Drop an image into `images/figures/` and reference it like `![Caption.](../images/figures/your-file.png){fig-alt="Alt text"}` — otherwise this section stays empty on render.)*

@@ -1,15 +1,29 @@
 ---
 title: Teaching
-
-# Use markdown below to add content. 
 ---
+
+## Courses
 
 ### Current
 
-- Course 1 
-- Course 2 
+- **Econometría I**, Universidad de Granada — *course description to follow.*
+- **Técnicas Cuantitativas I**, Universidad de Granada — *course description to follow.*
 
-### Past 
+### Past
 
-- Course 3 
-- Course 4 
+- *(to be added)*
+
+## PhD courses
+
+I run short PhD-level modules on **causal inference for applied microeconometrics**:
+
+- Potential outcomes framework
+- Randomised experiments
+- Regression discontinuity design (RDD)
+- Difference-in-differences (DiD)
+
+I'm happy to deliver these at other institutions and PhD programmes, in English or Spanish — [drop me a line](mailto:alessiogaggero@ugr.es) if of interest.
+
+## Teaching projects
+
+I'm developing inquiry-based and Socratic approaches to teaching quantitative methods at undergraduate level. More to follow as the work matures.

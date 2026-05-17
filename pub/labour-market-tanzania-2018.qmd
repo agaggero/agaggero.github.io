@@ -1,0 +1,28 @@
+---
+title: "Labour market and intra-household dynamics in urban Tanzania"
+date: "01-01-2018"
+date-format: "YYYY"
+summary: "Using a unique dataset of employment histories in urban Tanzania, we show how households adjust their labour supply in response to employment shocks faced by other family members — with the household functioning as a risk-sharing institution built around women's labour supply."
+journ: "African Journal of Agricultural and Resource Economics"
+issue: "13(2)"
+links:
+  - url: "https://ideas.repec.org/a/ags/afjare/274733.html"
+    label: "Paper"
+coauthors:
+  - name: "Sarah Bridges"
+  - name: "Trudy Owens"
+
+format:
+  html:
+    page-layout: article
+    template-partials:
+      - "../partials/title-block.html"
+---
+
+### Abstract
+
+While a large body of literature documents the existence of informal arrangements to share risk across and within households, there has been little research on the various coping strategies through which risk sharing takes place, and how these strategies function. This study attempts to fill this gap in the literature and examine whether, and to what extent, individual labour-supply behaviour is one of such coping strategies used by households facing risk. Our hypothesis is that, as with a small business, individuals adjust their employment behaviour in the event that one of their household members experiences a variation in their labour supply, that is, either gains or loses a job. Using a unique dataset that collects employment histories for each family member in Tanzania, our results confirm our hypothesis and show that the labour supply of the household members is an important determinant of employment transitions, and that these effects are greater for women than for men. In the context of low-income countries, we interpret these findings as evidence that the household works as a risk-sharing institution built around women's labour supply.
+
+### Key figure or table
+
+*(Drop an image into `images/figures/` and reference it like `![Caption.](../images/figures/your-file.png){fig-alt="Alt text"}` — otherwise this section stays empty on render.)*

@@ -1,0 +1,28 @@
+---
+title: "Influence of personality traits, gender, and socio-economic factors in obesity in the English Longitudinal Study of Ageing"
+date: "01-01-2023"
+date-format: "YYYY"
+summary: "Using waves 5–6 of the English Longitudinal Study of Ageing (n=6,562), we estimate the association between Big-Five personality traits and obesity, controlling for the individual's economic situation."
+journ: "Personality and Mental Health"
+issue: ""
+links:
+  - url: "https://doi.org/10.1002/pmh.1575"
+    label: "DOI"
+coauthors:
+  - name: "Modou Diop"
+  - name: "Manuel Ruiz-Adame"
+
+format:
+  html:
+    page-layout: article
+    template-partials:
+      - "../partials/title-block.html"
+---
+
+### Abstract
+
+Obesity is a chronic disorder associated with high mortality rates and high morbidity. The risk of obesity is associated with certain personality traits (PTs). Some studies have found correlations among some PTs and gender. Additionally, obesity implies higher costs in daily living. The aim of this paper is to overcome this problem in the literature and estimate the association between PTs and obesity by taking into account the economic situation of the individual. This study employs data from the English Longitudinal Study of Ageing (ELSA). We focus on waves 5 and 6 of the ELSA with a sample of 6,562 individuals. The results suggest that the traits of agreeableness (β = 0.071, se = 0.016, p < 0.001) and openness (β = 0.028, se = 0.014, p < 0.001) are positively and significantly associated with obesity. On the other hand, conscientiousness has a negative and statistically significant effect on obesity (β = 0.072, se = 0.017, p < 0.001). Results are robust to the inclusion/exclusion of different regressors.
+
+### Key figure or table
+
+*(Drop an image into `images/figures/` and reference it like `![Caption.](../images/figures/your-file.png){fig-alt="Alt text"}` — otherwise this section stays empty on render.)*

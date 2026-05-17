@@ -1,0 +1,25 @@
+---
+title: "The effect of type 2 diabetes diagnosis in the elderly"
+date: "01-01-2020"
+date-format: "YYYY"
+summary: "Using a regression discontinuity around the diagnostic blood-test cut-off in ELSA biomarker data, I estimate the effect of a type 2 diabetes diagnosis on physical and mental health in older adults."
+journ: "Economics & Human Biology"
+issue: ""
+links:
+  - url: "https://doi.org/10.1016/j.ehb.2019.100830"
+    label: "DOI"
+
+format:
+  html:
+    page-layout: article
+    template-partials:
+      - "../partials/title-block.html"
+---
+
+### Abstract
+
+In this paper, I use a novel approach based on biomarkers data to examine the effect of type 2 diabetes (T2D) diagnosis on both physical and mental health for a sample of individuals aged 50 and above. In order to retrieve reliable estimates, I exploit the fact that medical guidelines cause a discontinuity in the probability that General Practitioners (GP) diagnose their patients with T2D as a function of exact blood test cut-off in a regression discontinuity design (RDD) approach. Using data from the English Longitudinal Study of Ageing (ELSA), I find compelling evidence that health information, in the form of T2D diagnosis, influences the protection of health into old age. Specifically, after receiving T2D diagnosis, over time, individuals reported a 2.1 lower body mass index (BMI) as well as 5.5 cm lower waist circumference, relative to their counterparts. With respect to self-reported physical health, the results imply that those diagnosed with T2D reported a 0.19 and 0.70 higher score in increased activities of daily living (ADL) and body mobility indexes, respectively. Finally, while I find evidence that T2D-diagnosed patients reported a significant, 0.5 higher, score in the word listening test, I find no evidence that T2D diagnosis impacted self-reported depression levels. I provide a wide variety of evidence on the validity of the results.
+
+### Key figure or table
+
+*(Drop an image into `images/figures/` and reference it like `![Caption.](../images/figures/your-file.png){fig-alt="Alt text"}` — otherwise this section stays empty on render.)*

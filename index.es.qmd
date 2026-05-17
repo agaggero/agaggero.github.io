@@ -1,0 +1,44 @@
+---
+title: "Alessio Gaggero"
+image: images/alessio.jpg
+lang: es
+about:
+    template: solana
+    image-width: 10em
+    links:
+        - icon: envelope
+          href: mailto:alessiogaggero@ugr.es
+          text: Email
+        - icon: mortarboard
+          href: https://scholar.google.com/citations?user=_AKeoPoAAAAJ
+          text: Google Scholar
+        - icon: twitter-x
+          href: https://x.com/GaggeroAlessio
+          text: X
+        - icon: file-earmark-pdf
+          href: files/cv.pdf
+          text: CV
+---
+
+Uso microeconometría aplicada para investigar preguntas en salud, educación y comportamiento: por qué un diagnóstico de diabetes cambia los hábitos diarios, por qué la hora del día de un examen importa más de lo que pensamos, o qué hace una pandemia con la salud mental de las personas mayores. Enseño los métodos detrás de estas respuestas en la Universidad de Granada.
+
+## Novedades
+
+- **Mayo 2026** — Seminario: *"Does Children's Genetic Risk for ADHD Affect Parental Divorce?"* en el Departamento de Teoría e Historia Económica, Universidad de Granada. [Anuncio](https://tehieco.ugr.es/informacion/noticias/seminar-alessio-gaggero).
+
+- **Enero 2026** — *Genetic risk for ADHD and later-life health and wellbeing* publicado en *The Journal of the Economics of Ageing*. [Entrada en Nada es Gratis](https://nadaesgratis.es/dolores-jimenez/riesgo-genetico-de-tdah-salud-en-adultos-mayores-y-efectos-de-desbordamiento-en-la-pareja).
+
+- **Junio 2024** — *The effect of heavy smoking on retirement risk* publicado en *Addictive Behaviors*.
+
+- **Mayo 2024** — *Shutting down to save lives* publicado en *Socio-Economic Planning Sciences*.
+
+- **Mayo 2023** — *Time of Day and High-Stake Cognitive Assessments* publicado en *The Economic Journal*.
+
+## Intereses de investigación
+
+Economía de la salud · Economía de la educación · Economía del comportamiento · Microeconometría aplicada · Inferencia causal
+
+## Despacho
+
+Facultad de Ciencias Económicas y Empresariales, C105\
+Universidad de Granada

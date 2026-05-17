@@ -1,0 +1,39 @@
+---
+title: "Cost-effectiveness of diagnostic tools to establish the presence of peripheral arterial disease in people with diabetes"
+date: "01-01-2023"
+date-format: "YYYY"
+summary: "A Markov-model evaluation comparing point-of-care duplex ultrasound (PAD-scan) with other bedside tests for diagnosing peripheral arterial disease in people with diabetes — PAD-scan emerges as the most cost-effective option."
+journ: "Annals of Surgery"
+issue: "277(1): e184–e191"
+links:
+  - url: "https://doi.org/10.1097/SLA.0000000000004815"
+    label: "DOI"
+coauthors:
+  - name: "Pasha Normahani"
+  - name: "David M. Epstein"
+  - name: "Alun H. Davies"
+  - name: "Viknesh Sounderajah"
+  - name: "Usman Jaffer"
+
+format:
+  html:
+    page-layout: article
+    template-partials:
+      - "../partials/title-block.html"
+---
+
+### Abstract
+
+**Objective.** To evaluate the cost-effectiveness of point-of-care duplex ultrasound (PAD-scan) and other bedside tests for the diagnosis of peripheral arterial disease (PAD) in people with diabetes.
+
+**Background.** PAD is a risk factor for cardiovascular disease, diabetic foot ulceration (DFU), and amputation in diabetic patients. Diagnosis enables optimization of therapies to manage these risks. PAD-scan can be performed by frontline staff and has been shown to be the most accurate bedside test. The cost-effectiveness has not been investigated.
+
+**Methods.** A Markov model was constructed to estimate the health outcomes and costs over 5 years of different testing strategies applied to a cohort of diabetic patients. Bedside tests investigated were PAD-scan, ankle-brachial pressure index, toe-brachial pressure index, audible and visual Doppler, transcutaneous pressure of oxygen, and pulse palpation. Health outcomes were incidence of MACE, amputation, death, and DFU healing rates. Sensitivity analyses were performed.
+
+**Results.** PAD-scan was the most cost-effective bedside test with an incremental cost-effectiveness ratio of £11,391/quality-adjusted life years. PAD-scan had the highest probability (78.7%) of having the greatest net benefit at a willingness-to-pay threshold of £20,000 per quality-adjusted life years. It reduced the number of amputations by 24% and the number of cardiovascular deaths by 10% over 5 years, compared to toe-brachial pressure index (next best alternative). PAD-scan's superiority in incremental cost-effectiveness ratio occurred at a PAD prevalence threshold of 0.24.
+
+**Discussion.** PAD-scan is a cost-effective test for the detection of PAD in patients with diabetes.
+
+### Key figure or table
+
+*(Drop an image into `images/figures/` and reference it like `![Caption.](../images/figures/your-file.png){fig-alt="Alt text"}` — otherwise this section stays empty on render.)*

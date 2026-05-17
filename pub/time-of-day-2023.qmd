@@ -1,0 +1,27 @@
+---
+title: "Time of Day and High-Stake Cognitive Assessments"
+date: "01-01-2023"
+date-format: "YYYY"
+summary: "First causal evidence that the time of day is an important condition affecting performance in high-stake cognitive assessments — peak performance occurs in the early afternoon, with patterns consistent with the circadian rhythm."
+journ: "The Economic Journal"
+issue: ""
+links:
+  - url: "https://doi.org/10.1093/ej/ueac090"
+    label: "DOI"
+coauthors:
+  - name: "Denni Tommasi"
+
+format:
+  html:
+    page-layout: article
+    template-partials:
+      - "../partials/title-block.html"
+---
+
+### Abstract
+
+A variety of external conditions may affect individual performance in high-stake cognitive assessments, with potentially lasting consequences on earnings and career. We provide the first causal evidence that the time of the day is an important condition affecting the performance at the moment of an evaluation. Exploiting a setting in which cognitive assessments are quasi-randomly assigned at a different time of day, we find that peak performance occurs in the early afternoon. The estimated time-of-day effects follow specific patterns consistent with the circadian rhythm, which suggests that biological factors are important determinants of performance even in economically meaningful settings.
+
+### Key figure or table
+
+*(Drop an image into `images/figures/` and reference it like `![Caption.](../images/figures/your-file.png){fig-alt="Alt text"}` — otherwise this section stays empty on render.)*

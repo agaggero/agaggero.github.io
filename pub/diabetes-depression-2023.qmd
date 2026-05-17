@@ -1,0 +1,35 @@
+---
+title: "Sick and depressed? The causal impact of a diabetes diagnosis on depression"
+date: "01-01-2023"
+date-format: "YYYY"
+summary: "Using a fuzzy regression discontinuity around the HbA1c diagnostic cut-off and rich Spanish administrative data, we identify the causal impact of a diabetes diagnosis on clinical depression — with heterogeneous effects by gender and lifestyle response."
+journ: "Health Economics Review"
+issue: ""
+links:
+  - url: "https://doi.org/10.1186/s13561-023-00451-w"
+    label: "DOI"
+coauthors:
+  - name: "Joan Gil"
+  - name: "Dolores Jiménez-Rubio"
+  - name: "Eugenio Zucchelli"
+
+format:
+  html:
+    page-layout: article
+    template-partials:
+      - "../partials/title-block.html"
+---
+
+### Abstract
+
+**Background.** There is sparse evidence on the impact of health information on mental health as well as on the mechanisms governing this relationship. We estimate the causal impact of health information on mental health via the effect of a diabetes diagnosis on depression.
+
+**Methods.** We employ a fuzzy regression discontinuity design (RDD) exploiting the exogenous cut-off value of a biomarker used to diagnose type-2 diabetes (glycated haemoglobin, HbA1c) and information on psychometrically validated measures of diagnosed clinical depression drawn from rich administrative longitudinal individual-level data from a large municipality in Spain. This approach allows estimating the causal impact of a type-2 diabetes diagnosis on clinical depression.
+
+**Results.** We find that overall a type-2 diabetes diagnosis increases the probability of becoming depressed, however this effect appears to be driven mostly by women, and in particular those who are relatively younger and obese. Results also appear to differ by changes in lifestyle induced by the diabetes diagnosis: while women who did not lose weight were more likely to develop depression, men who did lose weight present a reduced probability of being depressed. Results are robust to alternative parametric and non-parametric specifications and placebo tests.
+
+**Conclusions.** The study provides novel empirical evidence on the causal impact of health information on mental health, shedding light on gender-based differences in such effects and potential mechanisms through changes in lifestyle behaviours.
+
+### Key figure or table
+
+*(Drop an image into `images/figures/` and reference it like `![Caption.](../images/figures/your-file.png){fig-alt="Alt text"}` — otherwise this section stays empty on render.)*

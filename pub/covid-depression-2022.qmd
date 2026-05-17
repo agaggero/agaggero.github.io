@@ -1,0 +1,34 @@
+---
+title: "Effect of the COVID-19 pandemic on depression in older adults: A panel data analysis"
+date: "01-01-2022"
+date-format: "YYYY"
+summary: "Using seven waves of the English Longitudinal Study of Ageing (2010–2020), this paper investigates the impact of the COVID-19 pandemic on depression in older adults — a vulnerable group for which empirical evidence remains limited."
+journ: "Health Policy"
+issue: ""
+links:
+  - url: "https://doi.org/10.1016/j.healthpol.2022.07.001"
+    label: "DOI"
+coauthors:
+  - name: "Ángel Fernández-Pérez"
+  - name: "Dolores Jiménez-Rubio"
+
+format:
+  html:
+    page-layout: article
+    template-partials:
+      - "../partials/title-block.html"
+---
+
+### Abstract
+
+**Background.** This paper investigates the impact of the COVID-19 pandemic on depression in the older population, an especially vulnerable group for which to date there is limited empirical research.
+
+**Methods.** We employ a panel data consisting of seven waves of the English Longitudinal Study of Ageing (2010–2020). The breadth and depth of the data considered enabled us to control for individual fixed effects, to adjust for pre-pandemic trends in depression levels and to perform a heterogeneity analysis, depending on the intensity of the lockdown measures implemented and relevant socioeconomic characteristics.
+
+**Results.** We find that, following the COVID-19 pandemic, study participants reported a statistically significant increase in the depressive symptoms by around 0.7 over 8 points as measured by the Centre for Epidemiologic Studies Depression (CES-D) index. The estimated coefficients were larger in November than in July, for individuals who lost their job, retired and women. Interestingly, we observed that mental health has worsened substantially relative to the pre-pandemic period across all income groups of the older population, suggesting a limited role of income as a protective mechanism for mental health.
+
+**Conclusions.** Our findings provide compelling evidence that depression levels amongst older adults have worsened considerably following the COVID-19 pandemic, and that factors other than income, such as social interactions, may be highly relevant for well-being in later life.
+
+### Key figure or table
+
+*(Drop an image into `images/figures/` and reference it like `![Caption.](../images/figures/your-file.png){fig-alt="Alt text"}` — otherwise this section stays empty on render.)*

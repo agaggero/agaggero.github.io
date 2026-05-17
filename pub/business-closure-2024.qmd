@@ -1,0 +1,28 @@
+---
+title: "Shutting down to save lives: A regression discontinuity analysis of non-essential business closure"
+date: "01-01-2024"
+date-format: "YYYY"
+summary: "A regression-discontinuity analysis of Andalusia's two-week closures of non-essential businesses around the 14-day infection cut-off of 1,000 per 100,000 — the policy delivered a 23% drop in new COVID-19 cases and a 2% drop in deaths."
+journ: "Socio-Economic Planning Sciences"
+issue: ""
+links:
+  - url: "https://doi.org/10.1016/j.seps.2024.101925"
+    label: "DOI"
+coauthors:
+  - name: "Ángel Mesa-Pedrazas"
+  - name: "Ángel Fernández-Pérez"
+
+format:
+  html:
+    page-layout: article
+    template-partials:
+      - "../partials/title-block.html"
+---
+
+### Abstract
+
+This article quantifies the impact of the non-essential business closure policy implemented in the Spanish region of Andalusia during the COVID-19 pandemic between January and May 2021. Taking advantage of the fact that municipalities were assigned a two-week closure of non-essential businesses on the basis of whether the 14-day infection rate (per 100,000 inhabitants) was above a predetermined cutoff value of 1,000, we use a regression discontinuity design to estimate the causal impact of the policy on new COVID-19 cases and deaths. Using weekly administrative data, the estimates suggest that, on average, the policy produced a 23 percent reduction in new COVID-19 cases and a 2 percent decrease in new COVID-19 deaths. Notably, the heterogeneity analysis reveals that the policy was more effective in rural areas than in urban areas. Overall, this study provides compelling evidence that shutting down businesses served as an effective tool to counter the COVID-19 pandemic.
+
+### Key figure or table
+
+*(Drop an image into `images/figures/` and reference it like `![Caption.](../images/figures/your-file.png){fig-alt="Alt text"}` — otherwise this section stays empty on render.)*

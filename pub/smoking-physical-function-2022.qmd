@@ -1,0 +1,29 @@
+---
+title: "Effect of smoking on physical function in older adults: a Mendelian randomisation analysis"
+date: "01-01-2022"
+date-format: "YYYY"
+summary: "A Mendelian randomisation analysis using polygenic scores in 29,139 UK older adults from ELSA, testing whether smoking causally affects physical function (body mobility and activities-of-daily-living indices)."
+journ: "Journal of Epidemiology and Community Health"
+issue: ""
+links:
+  - url: "https://doi.org/10.1136/jech-2021-217572"
+    label: "DOI"
+
+format:
+  html:
+    page-layout: article
+    template-partials:
+      - "../partials/title-block.html"
+---
+
+### Abstract
+
+**Background.** Smoking is widely known to be damaging to health. It greatly increases the risk of various cancers, cardiovascular and respiratory diseases, and remains the leading preventable cause of morbidity and mortality in the UK. The article tested the hypothesis that smoking behaviour (either smoking or non-smoking) is associated with physical function, and assessed inferred causality using genetic predisposition to smoking behaviour as an instrumental variable.
+
+**Methods and findings.** Data were drawn from the English Longitudinal Study of Ageing (ELSA), waves 1–9 (mean age 65.8 years). Physical function was assessed by means of the body mobility and the activity of daily living indices. Polygenic scores for smoking behaviour were used as instrumental variables in a Mendelian randomisation framework. Instrumental variable estimators were used to examine causal effects. Among UK older adults (n = 29,139), impaired physical function was significantly higher in (current) smokers compared with non-smokers. Relatively to non-smokers, smokers reported a higher level of impairment both in the body mobility index (β = 5.553; 95% CI 1.029 to 10.077) and in the activities of daily living index (β = 1.908; 95% CI 0.196 to 3.619).
+
+**Conclusions.** This study demonstrates smoking behaviour to be a potential causal risk factor for physical function during ageing in the UK population. Accordingly, the benefits of smoking cessations may extend to physical function.
+
+### Key figure or table
+
+*(Drop an image into `images/figures/` and reference it like `![Caption.](../images/figures/your-file.png){fig-alt="Alt text"}` — otherwise this section stays empty on render.)*
