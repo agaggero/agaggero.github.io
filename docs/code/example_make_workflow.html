@@ -165,15 +165,19 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <script>
 // Make the navbar language-aware:
-//  - On *.es.html pages, rewrite "Research"/"Teaching"/"Home" nav links
-//    to their .es.html counterparts.
-//  - Make the flag-toggle buttons point to the equivalent page in the
-//    other language (e.g., from /research.es, clicking the UK flag
-//    goes to /research, not /index).
-//  - Detail pages without a Spanish equivalent (e.g., pub/foo.html)
-//    leave the flag toggle pointing to the respective language home.
+//  - Click "Home/Research/Teaching" from a *.es.html page → goes to the
+//    .es.html counterpart (visitor stays in Spanish).
+//  - Click the 🇬🇧/🇪🇸 flag toggle → goes to the equivalent page in the
+//    other language (from /research.es, 🇬🇧 → /research, not /index).
+//  - Detail pages without a Spanish counterpart (pub/*.html) leave the
+//    flag toggle pointing to its respective language home.
+//
+// Implementation note: we attach a click event handler (with
+// preventDefault + explicit navigation) instead of just rewriting the
+// href, so the redirect survives any other JS that might reset the
+// link's href attribute after page load.
 (function () {
-  function rewriteNav() {
+  function attachLangSwitch() {
     const path = window.location.pathname;
     const filename = path.split('/').pop() || 'index.html';
     const isES = filename.endsWith('.es.html');
@@ -186,43 +190,52 @@ ul.task-list li input[type="checkbox"] {
     };
 
     document.querySelectorAll('a.nav-link').forEach(function (link) {
+      if (link.dataset.langSwitchBound) return; // idempotent
       const href = link.getAttribute('href');
       if (!href || href.startsWith('http')) return;
 
       const img = link.querySelector('img');
+      let target = null;
 
-      // Flag toggle (has <img> inside) → point to current page's other-language version
       if (img) {
+        // Flag toggle
         if (!knownPages.includes(slug)) return;
         const alt = img.getAttribute('alt');
         const dirPrefix = href.replace(/[^/]*$/, '');
         if (alt === 'English') {
-          link.setAttribute('href', dirPrefix + slug + '.html');
+          target = dirPrefix + slug + '.html';
         } else if (alt === 'Español') {
-          link.setAttribute('href', dirPrefix + slug + '.es.html');
+          target = dirPrefix + slug + '.es.html';
         }
-        return;
-      }
-
-      // Regular nav link on a Spanish page → rewrite to .es.html
-      if (isES) {
+      } else if (isES) {
+        // Regular nav link on a Spanish page
         const fileMatch = href.match(/([^/]+\.html)$/);
         if (!fileMatch) return;
         const page = fileMatch[1];
         if (page in enToEs) {
-          link.setAttribute('href', href.replace(new RegExp(page + '$'), enToEs[page]));
+          target = href.replace(new RegExp(page + '$'), enToEs[page]);
         }
+      }
+
+      if (target) {
+        link.setAttribute('href', target);
+        link.dataset.langSwitchBound = 'true';
+        link.addEventListener('click', function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+          window.location.href = target;
+        });
       }
     });
   }
 
-  // Run immediately if DOM is already parsed (common when included after body),
-  // otherwise wait for DOMContentLoaded.
+  // Try as early as possible, then again on window.load as a backup
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', rewriteNav);
+    document.addEventListener('DOMContentLoaded', attachLangSwitch);
   } else {
-    rewriteNav();
+    attachLangSwitch();
   }
+  window.addEventListener('load', attachLangSwitch);
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
