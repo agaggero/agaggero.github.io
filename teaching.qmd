@@ -2,6 +2,10 @@
 title: Teaching
 ---
 
+::: {style="text-align: right; margin-bottom: 1em;"}
+[🇪🇸 Ver en español](teaching.es.html){.btn .btn-sm .btn-outline-secondary}
+:::
+
 ## Courses
 
 ::: {.columns}
