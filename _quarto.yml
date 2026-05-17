@@ -15,8 +15,6 @@ website:
         text: Research
       - href: teaching.qmd
         text: Teaching
-      - href: files/cv.pdf
-        text: CV
     search: false
 
 format:

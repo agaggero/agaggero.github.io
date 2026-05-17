@@ -23,7 +23,7 @@ about:
 ---
 
 ::: {style="text-align: right; margin-bottom: 1em;"}
-[🇪🇸 Ver en español](index.es.html){.btn .btn-sm .btn-outline-secondary}
+[Ver en español](index.es.html){.btn .btn-sm .btn-outline-secondary}
 :::
 
 I use applied microeconometrics to chase questions in health, education, and behaviour: why a diabetes diagnosis changes daily habits, why exam time of day matters more than people think, what a pandemic does to older adults' mental health. I teach the methods behind these answers at the Universidad de Granada.

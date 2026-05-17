@@ -4,7 +4,7 @@ lang: es
 ---
 
 ::: {style="text-align: right; margin-bottom: 1em;"}
-[🇬🇧 View in English](teaching.html){.btn .btn-sm .btn-outline-secondary}
+[View in English](teaching.html){.btn .btn-sm .btn-outline-secondary}
 :::
 
 ## Cursos
