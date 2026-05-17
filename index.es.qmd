@@ -12,6 +12,9 @@ about:
         - icon: mortarboard
           href: https://scholar.google.com/citations?user=_AKeoPoAAAAJ
           text: Google Scholar
+        - icon: building
+          href: https://www.ugr.es/personal/alessio-gaggero
+          text: UGR
         - icon: twitter-x
           href: https://x.com/GaggeroAlessio
           text: X
@@ -27,12 +30,6 @@ Uso microeconometría aplicada para investigar preguntas en salud, educación y 
 - **Mayo 2026** — Seminario: *"Does Children's Genetic Risk for ADHD Affect Parental Divorce?"* en el Departamento de Teoría e Historia Económica, Universidad de Granada. [Anuncio](https://tehieco.ugr.es/informacion/noticias/seminar-alessio-gaggero).
 
 - **Enero 2026** — *Genetic risk for ADHD and later-life health and wellbeing* publicado en *The Journal of the Economics of Ageing*. [Entrada en Nada es Gratis](https://nadaesgratis.es/dolores-jimenez/riesgo-genetico-de-tdah-salud-en-adultos-mayores-y-efectos-de-desbordamiento-en-la-pareja).
-
-- **Junio 2024** — *The effect of heavy smoking on retirement risk* publicado en *Addictive Behaviors*.
-
-- **Mayo 2024** — *Shutting down to save lives* publicado en *Socio-Economic Planning Sciences*.
-
-- **Mayo 2023** — *Time of Day and High-Stake Cognitive Assessments* publicado en *The Economic Journal*.
 
 ## Intereses de investigación
 
