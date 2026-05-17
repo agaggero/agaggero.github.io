@@ -5,25 +5,45 @@ lang: es
 
 ## Cursos
 
-### Actuales
+::: {.columns}
 
-- **Econometría I**, Universidad de Granada — *descripción del curso por añadir.*
-- **Técnicas Cuantitativas I**, Universidad de Granada — *descripción del curso por añadir.*
+::: {.column width="48%"}
 
-### Anteriores
+### Grado
 
-- *(por añadir)*
+- **Econometría I (ECOI)**, Universidad de Granada — *descripción del curso por añadir.*
+- **Técnicas Cuantitativas I (TC1)**, Universidad de Granada — *descripción del curso por añadir.*
 
-## Cursos de doctorado
+:::
 
-Imparto módulos cortos de doctorado sobre **inferencia causal para la microeconometría aplicada**:
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+
+### Posgrado
+
+***Máster Universitario en Técnicas Cuantitativas en Gestión Empresarial***
+
+- Fundamentos Avanzados en Métodos Cuantitativos
+- Predicción Económica-Empresarial
+
+***Doctorado — módulos cortos sobre inferencia causal para la microeconometría aplicada***
 
 - Marco de resultados potenciales
 - Experimentos aleatorios
 - Regresión por discontinuidad (RDD)
 - Diferencias en diferencias (DiD)
 
-Los módulos están disponibles para impartirse en otras instituciones y programas de doctorado, en inglés o español — [escríbeme](mailto:alessiogaggero@ugr.es) si te interesa.
+:::
+
+::::
+
+::: {.text-center style="margin: 2em 0; padding: 1em; border-top: 1px solid rgba(255,255,255,0.1); border-bottom: 1px solid rgba(255,255,255,0.1);"}
+
+Estoy disponible para impartir cursos cortos sobre **inferencia causal y microeconometría aplicada** en otras instituciones, programas de doctorado, empresas y organismos públicos — en inglés o español. [Escríbeme](mailto:alessiogaggero@ugr.es).
+
+:::
 
 ## Proyectos docentes
 

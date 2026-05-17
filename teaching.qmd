@@ -4,25 +4,45 @@ title: Teaching
 
 ## Courses
 
-### Current
+::: {.columns}
 
-- **Econometría I**, Universidad de Granada — *course description to follow.*
-- **Técnicas Cuantitativas I**, Universidad de Granada — *course description to follow.*
+::: {.column width="48%"}
 
-### Past
+### Undergraduate
 
-- *(to be added)*
+- **Econometría I (ECOI)**, Universidad de Granada — *course description to follow.*
+- **Técnicas Cuantitativas I (TC1)**, Universidad de Granada — *course description to follow.*
 
-## PhD courses
+:::
 
-I run short PhD-level modules on **causal inference for applied microeconometrics**:
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+
+### Postgraduate
+
+***Máster Universitario en Técnicas Cuantitativas en Gestión Empresarial***
+
+- Fundamentos Avanzados en Métodos Cuantitativos
+- Predicción Económica-Empresarial
+
+***PhD — short modules on causal inference for applied microeconometrics***
 
 - Potential outcomes framework
 - Randomised experiments
 - Regression discontinuity design (RDD)
 - Difference-in-differences (DiD)
 
-I'm happy to deliver these at other institutions and PhD programmes, in English or Spanish — [drop me a line](mailto:alessiogaggero@ugr.es) if of interest.
+:::
+
+::::
+
+::: {.text-center style="margin: 2em 0; padding: 1em; border-top: 1px solid rgba(255,255,255,0.1); border-bottom: 1px solid rgba(255,255,255,0.1);"}
+
+I'm available to deliver short courses on **causal inference and applied microeconometrics** to other institutions, PhD programmes, firms, and public bodies — in English or Spanish. [Get in touch](mailto:alessiogaggero@ugr.es).
+
+:::
 
 ## Teaching projects
 
