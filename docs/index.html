@@ -187,6 +187,60 @@ Universidad de Granada</p>
   </div>
 </div>
  <!-- /main -->
+<script>
+// Make the navbar language-aware:
+//  - On *.es.html pages, rewrite "Research"/"Teaching"/"Home" nav links
+//    to their .es.html counterparts.
+//  - Make the flag-toggle buttons point to the equivalent page in the
+//    other language (e.g., from /research.es, clicking the UK flag
+//    goes to /research, not /index).
+//  - Detail pages without a Spanish equivalent (e.g., pub/foo.html)
+//    leave the flag toggle pointing to the respective language home.
+(function () {
+  document.addEventListener('DOMContentLoaded', function () {
+    const path = window.location.pathname;
+    const filename = path.split('/').pop() || 'index.html';
+    const isES = filename.endsWith('.es.html');
+    const slug = filename.replace(/\.es\.html$/, '').replace(/\.html$/, '') || 'index';
+    const knownPages = ['index', 'research', 'teaching'];
+    const enToEs = {
+      'index.html': 'index.es.html',
+      'research.html': 'research.es.html',
+      'teaching.html': 'teaching.es.html'
+    };
+
+    document.querySelectorAll('a.nav-link').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.startsWith('http')) return;
+
+      const img = link.querySelector('img');
+
+      // Flag toggle (has <img> inside) → point to current page's other-language version
+      if (img) {
+        if (!knownPages.includes(slug)) return;
+        const alt = img.getAttribute('alt');
+        const dirPrefix = href.replace(/[^/]*$/, '');
+        if (alt === 'English') {
+          link.setAttribute('href', dirPrefix + slug + '.html');
+        } else if (alt === 'Español') {
+          link.setAttribute('href', dirPrefix + slug + '.es.html');
+        }
+        return;
+      }
+
+      // Regular nav link on a Spanish page → rewrite to .es.html
+      if (isES) {
+        for (const en in enToEs) {
+          if (href.endsWith('/' + en) || href === en) {
+            link.setAttribute('href', href.replace(en, enToEs[en]));
+            return;
+          }
+        }
+      }
+    });
+  });
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const isCodeAnnotation = (el) => {

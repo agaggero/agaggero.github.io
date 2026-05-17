@@ -32,3 +32,5 @@ format:
     theme: darkly
     css: styles.css
     toc: false
+    include-after-body:
+      - partials/lang-switch.html
