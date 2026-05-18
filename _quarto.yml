@@ -4,6 +4,8 @@ project:
   resources:
     - files/cv.pdf
     - .nojekyll
+    - google977d8f7c746769c6.html
+    - robots.txt
     - robots.txt
 
 website:
