@@ -29,7 +29,7 @@ A first-year undergraduate course covering descriptive statistics, probability t
 
 - **Programme.** Grado en Economía · Grado en Administración y Dirección de Empresas
 - **Year.** First-year undergraduate
-- **Language of instruction.** Spanish
+- **Language of instruction.** English and Spanish (separate groups)
 - **Software.** Microsoft Excel and R via RStudio
 - **Assessment.** Continuous assessment (problem sets and Excel/R labs) plus a final exam.
 
