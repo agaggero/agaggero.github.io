@@ -109,14 +109,14 @@
     "href": "index.html",
     "title": "Alessio Gaggero",
     "section": "",
-    "text": "Ver en español\nI use applied microeconometrics to chase questions in health, education, and behaviour: why a diabetes diagnosis changes daily habits, why exam time of day matters more than people think, what a pandemic does to older adults’ mental health. I teach the methods behind these answers at the Universidad de Granada."
+    "text": "Ver en español"
   },
   {
-    "objectID": "index.html#news",
-    "href": "index.html#news",
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
     "title": "Alessio Gaggero",
-    "section": "News",
-    "text": "News\n\nMay 2026 — Seminar: “Does Children’s Genetic Risk for ADHD Affect Parental Divorce?” at the Department of Economic Theory and History, Universidad de Granada. Announcement.\nJanuary 2026 — Genetic risk for ADHD and later-life health and wellbeing published in The Journal of the Economics of Ageing. Blog post on Nada es Gratis."
+    "section": "About me",
+    "text": "About me\nI use applied microeconometrics to chase questions in health, education, and behaviour: why a diabetes diagnosis changes daily habits, why exam time of day matters more than people think, what a pandemic does to older adults’ mental health. I teach the methods behind these answers at the Universidad de Granada."
   },
   {
     "objectID": "index.html#research-interests",
@@ -131,6 +131,13 @@
     "title": "Alessio Gaggero",
     "section": "Office",
     "text": "Office\nFacultad de Ciencias Económicas y Empresariales, C105\nUniversidad de Granada"
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Alessio Gaggero",
+    "section": "News",
+    "text": "News\n\nMay 2026 — Seminar: “Does Children’s Genetic Risk for ADHD Affect Parental Divorce?” at the Department of Economic Theory and History, Universidad de Granada. Announcement.\nJanuary 2026 — Genetic risk for ADHD and later-life health and wellbeing published in The Journal of the Economics of Ageing. Blog post on Nada es Gratis."
   },
   {
     "objectID": "code.html",

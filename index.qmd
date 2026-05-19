@@ -26,13 +26,11 @@ about:
 [Ver en español](index.es.html){.btn .btn-sm .btn-outline-secondary}
 :::
 
+
+## About me
+
 I use applied microeconometrics to chase questions in health, education, and behaviour: why a diabetes diagnosis changes daily habits, why exam time of day matters more than people think, what a pandemic does to older adults' mental health. I teach the methods behind these answers at the Universidad de Granada.
 
-## News
-
-- **May 2026** — Seminar: *"Does Children's Genetic Risk for ADHD Affect Parental Divorce?"* at the Department of Economic Theory and History, Universidad de Granada. [Announcement](https://tehieco.ugr.es/informacion/noticias/seminar-alessio-gaggero).
-
-- **January 2026** — *Genetic risk for ADHD and later-life health and wellbeing* published in *The Journal of the Economics of Ageing*. [Blog post on Nada es Gratis](https://nadaesgratis.es/dolores-jimenez/riesgo-genetico-de-tdah-salud-en-adultos-mayores-y-efectos-de-desbordamiento-en-la-pareja).
 
 ## Research interests
 
@@ -42,3 +40,12 @@ Health economics · Education economics · Behavioural economics · Applied micr
 
 Facultad de Ciencias Económicas y Empresariales, C105\
 Universidad de Granada
+
+
+## News
+
+- **May 2026** — Seminar: *"Does Children's Genetic Risk for ADHD Affect Parental Divorce?"* at the Department of Economic Theory and History, Universidad de Granada. [Announcement](https://tehieco.ugr.es/informacion/noticias/seminar-alessio-gaggero).
+
+- **January 2026** — *Genetic risk for ADHD and later-life health and wellbeing* published in *The Journal of the Economics of Ageing*. [Blog post on Nada es Gratis](https://nadaesgratis.es/dolores-jimenez/riesgo-genetico-de-tdah-salud-en-adultos-mayores-y-efectos-de-desbordamiento-en-la-pareja).
+
+
