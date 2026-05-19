@@ -15,7 +15,7 @@ title: Teaching
 ### Undergraduate
 
 - **[Econometría I (ECOI)](teaching/econometria-i.html)**, Universidad de Granada — undergraduate course on linear regression, inference, and diagnostics, taught in English with R. *Open textbook in preparation.*
-- **Técnicas Cuantitativas I (TC1)**, Universidad de Granada — *course description to follow.*
+- **[Técnicas Cuantitativas I (TC1)](teaching/tecnicas-cuantitativas-i.html)**, Universidad de Granada — first-year course on descriptive statistics, probability, and time series, with Excel and R labs.
 
 :::
 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Teaching – Alessio Gaggero</title>
+<title>Técnicas Cuantitativas I – Alessio Gaggero</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,23 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7aaea03793a50095ac62a930b9d9c168.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-7aaea03793a50095ac62a930b9d9c168.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,8 +71,37 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -82,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Alessio Gaggero</span>
     </a>
   </div>
@@ -92,15 +121,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./teaching.html" aria-current="page"> 
+    <a class="nav-link" href="../teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
 </ul>
@@ -120,7 +149,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Teaching</h1>
+<h1 class="title">Técnicas Cuantitativas I</h1>
+<p class="subtitle lead">Grado en ADE and Grado en Economía — Universidad de Granada</p>
 </div>
 
 
@@ -138,46 +168,35 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div style="text-align: right; margin-bottom: 1em;">
-<p><a href="teaching.es.html" class="btn btn-sm btn-outline-secondary">Ver en español</a></p>
+<p><a href="../teaching.html" class="btn btn-sm btn-outline-secondary">← Back to Teaching</a></p>
 </div>
-<section id="courses" class="level2">
-<h2 class="anchored" data-anchor-id="courses">Courses</h2>
-<div class="columns">
-<div class="column" style="width:48%;">
-<section id="undergraduate" class="level3">
-<h3 class="anchored" data-anchor-id="undergraduate">Undergraduate</h3>
+<p>A first-year undergraduate course covering descriptive statistics, probability theory, and an introduction to time series — the quantitative foundations students need before tackling econometrics. Hands-on labs in Excel and R.</p>
+<section id="topics" class="level2">
+<h2 class="anchored" data-anchor-id="topics">Topics</h2>
+<ol type="1">
+<li><p><strong>Univariate analysis.</strong> Descriptive statistics for a single variable — central tendency, dispersion, shape; histograms and boxplots; data exploration in Excel and R.</p></li>
+<li><p><strong>Bivariate analysis.</strong> Joint behaviour of two variables — covariance, correlation, contingency tables; the simple linear regression as a descriptive tool.</p></li>
+<li><p><strong>Probability.</strong> Set-theoretic foundations and axioms; conditional probability and Bayes’ theorem; independence; combinatorics.</p></li>
+<li><p><strong>Random variables.</strong> Discrete and continuous random variables; expectation, variance, moments; joint and conditional distributions.</p></li>
+<li><p><strong>Distributions.</strong> Common probability models — Bernoulli, Binomial, Poisson, Normal, Student’s <span class="math inline">\(t\)</span>, <span class="math inline">\(\chi^2\)</span>, <span class="math inline">\(F\)</span> — and their applications.</p></li>
+<li><p><strong>Index numbers.</strong> Price and quantity indices (Laspeyres, Paasche, Fisher); inflation; chained vs fixed-base indices.</p></li>
+<li><p><strong>Time series.</strong> Components (trend, seasonality, cycle, irregular); decomposition; moving averages; smoothing.</p></li>
+</ol>
+</section>
+<section id="course-logistics" class="level2">
+<h2 class="anchored" data-anchor-id="course-logistics">Course logistics</h2>
 <ul>
-<li><strong><a href="teaching/econometria-i.html">Econometría I (ECOI)</a></strong>, Universidad de Granada — undergraduate course on linear regression, inference, and diagnostics, taught in English with R. <em>Open textbook in preparation.</em></li>
-<li><strong><a href="teaching/tecnicas-cuantitativas-i.html">Técnicas Cuantitativas I (TC1)</a></strong>, Universidad de Granada — first-year course on descriptive statistics, probability, and time series, with Excel and R labs.</li>
+<li><strong>Programme.</strong> Grado en Economía · Grado en Administración y Dirección de Empresas</li>
+<li><strong>Year.</strong> First-year undergraduate</li>
+<li><strong>Language of instruction.</strong> Spanish</li>
+<li><strong>Software.</strong> Microsoft Excel and R via RStudio</li>
+<li><strong>Assessment.</strong> Continuous assessment (problem sets and Excel/R labs) plus a final exam.</li>
 </ul>
 </section>
-</div><div class="column" style="width:4%;">
-
-</div><div class="column" style="width:48%;">
-<section id="postgraduate" class="level3">
-<h3 class="anchored" data-anchor-id="postgraduate">Postgraduate</h3>
-<p><strong><em>Máster Universitario en Técnicas Cuantitativas en Gestión Empresarial</em></strong></p>
-<ul>
-<li>Fundamentos Avanzados en Métodos Cuantitativos</li>
-<li>Predicción Económica-Empresarial</li>
-</ul>
-<p><strong><em>PhD — short modules on causal inference for applied microeconometrics</em></strong></p>
-<ul>
-<li>Potential outcomes framework</li>
-<li>Randomised experiments</li>
-<li>Regression discontinuity design (RDD)</li>
-<li>Difference-in-differences (DiD)</li>
-</ul>
-</section>
-</div>
-</div>
-<div class="text-center" style="margin: 2em 0; padding: 1em; border-top: 1px solid rgba(255,255,255,0.1); border-bottom: 1px solid rgba(255,255,255,0.1);">
-<p>I’m available to deliver short courses on <strong>causal inference and applied microeconometrics</strong> to other institutions, PhD programmes, firms, and public bodies — in English or Spanish. <a href="mailto:alessiogaggero@ugr.es">Get in touch</a>.</p>
-</div>
-</section>
-<section id="teaching-projects" class="level2">
-<h2 class="anchored" data-anchor-id="teaching-projects">Teaching projects</h2>
-<p>I’m developing inquiry-based and Socratic approaches to teaching quantitative methods at undergraduate level. More to follow as the work matures.</p>
+<section id="materials" class="level2">
+<h2 class="anchored" data-anchor-id="materials">Materials</h2>
+<p>Lecture notes, beamer slides, problem sets with solutions, and per-topic Excel and R lab scripts.</p>
+<p>📖 <em>An open textbook based on these materials — modelled on the</em> Econometrics I <em>project — is in early planning.</em></p>
 
 
 </section>

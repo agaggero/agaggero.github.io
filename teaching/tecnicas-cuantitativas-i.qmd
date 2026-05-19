@@ -1,0 +1,40 @@
+---
+title: "Técnicas Cuantitativas I"
+subtitle: "Grado en ADE and Grado en Economía — Universidad de Granada"
+---
+
+::: {style="text-align: right; margin-bottom: 1em;"}
+[← Back to Teaching](../teaching.html){.btn .btn-sm .btn-outline-secondary}
+:::
+
+A first-year undergraduate course covering descriptive statistics, probability theory, and an introduction to time series — the quantitative foundations students need before tackling econometrics. Hands-on labs in Excel and R.
+
+## Topics
+
+1. **Univariate analysis.** Descriptive statistics for a single variable — central tendency, dispersion, shape; histograms and boxplots; data exploration in Excel and R.
+
+2. **Bivariate analysis.** Joint behaviour of two variables — covariance, correlation, contingency tables; the simple linear regression as a descriptive tool.
+
+3. **Probability.** Set-theoretic foundations and axioms; conditional probability and Bayes' theorem; independence; combinatorics.
+
+4. **Random variables.** Discrete and continuous random variables; expectation, variance, moments; joint and conditional distributions.
+
+5. **Distributions.** Common probability models — Bernoulli, Binomial, Poisson, Normal, Student's $t$, $\chi^2$, $F$ — and their applications.
+
+6. **Index numbers.** Price and quantity indices (Laspeyres, Paasche, Fisher); inflation; chained vs fixed-base indices.
+
+7. **Time series.** Components (trend, seasonality, cycle, irregular); decomposition; moving averages; smoothing.
+
+## Course logistics
+
+- **Programme.** Grado en Economía · Grado en Administración y Dirección de Empresas
+- **Year.** First-year undergraduate
+- **Language of instruction.** Spanish
+- **Software.** Microsoft Excel and R via RStudio
+- **Assessment.** Continuous assessment (problem sets and Excel/R labs) plus a final exam.
+
+## Materials
+
+Lecture notes, beamer slides, problem sets with solutions, and per-topic Excel and R lab scripts.
+
+📖 *An open textbook based on these materials — modelled on the* Econometrics I *project — is in early planning.*
