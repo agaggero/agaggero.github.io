@@ -1,0 +1,56 @@
+---
+title: "Econometría I"
+subtitle: "Grado en Economía and Grado en ADE — Universidad de Granada"
+---
+
+::: {style="text-align: right; margin-bottom: 1em;"}
+[← Back to Teaching](../teaching.html){.btn .btn-sm .btn-outline-secondary}
+:::
+
+A second-year undergraduate course that walks students from the *idea* of an econometric model to the practical estimation, inference, and diagnostic skills required to analyse real economic data. Taught in English with R.
+
+## Chapter template
+
+Each topic follows the same six-section structure:
+
+1. **Learning outcomes** — explicit objectives
+2. **Motivating empirical question** — a real-world question the topic answers
+3. **Theory** — concepts, derivations, key results
+4. **Worked example in R** — full code walked through step by step
+5. **Self-check** — interactive quiz
+6. **Exercises** — graded ★ easy · ★★ medium · ★★★ analytical
+
+## Topics
+
+1. **Initial Concepts.** What econometrics is; correlation vs causation; randomisation and quasi-experimental designs; cross-section, time series, panel and pooled data; basic exploratory analysis in R.
+
+2. **The Simple Linear Regression Model.** OLS derivation; Gauss–Markov assumptions; unbiasedness; the BLUE property; $R^2$; `lm()` in R.
+
+3. **The Multiple Linear Regression Model.** Matrix form; *ceteris paribus* interpretation; MLR.1–MLR.5; omitted-variable bias; adjusted $R^2$.
+
+4. **Inference.** Classical Linear Model assumptions; sampling distributions of $\hat{\beta}_j$; $t$-tests; confidence intervals; $F$-tests for joint significance; $p$-values.
+
+5. **Prediction and Model Selection.** Point and interval prediction; in-sample vs out-of-sample performance; model-selection criteria.
+
+6. **Nonlinear Relationships and Qualitative Information.** Logarithms, polynomials, and interactions; dummy variables and dummy–continuous interactions.
+
+7. **Heteroskedasticity.** Detection (Breusch–Pagan, White); consequences for inference; heteroskedasticity-robust standard errors; weighted least squares.
+
+8. **Autocorrelation.** Time-series complications; Durbin–Watson; Newey–West standard errors.
+
+**Appendices** — mathematical and statistical prerequisites · Wooldridge ↔ Carter–Griffiths–Lim crosswalk · statistical tables.
+
+## Open textbook
+
+I'm writing an open companion textbook — ***Econometrics I: Theory, Practice, and Applications*** — under a **CC BY 4.0** license. It consolidates three years of teaching materials (lecture notes, R tutorials, and interactive self-assessments) into a single reproducible volume, built with Quarto.
+
+📖 *Online edition coming soon. A Spanish edition is in preparation.*
+
+## Course logistics
+
+- **Programme.** Grado en Economía · Grado en Administración y Dirección de Empresas
+- **Level.** Second-year undergraduate
+- **Language of instruction.** English
+- **Software.** R via RStudio
+- **Reference textbook.** Wooldridge, *Introductory Econometrics: A Modern Approach* (latest edition), cross-referenced with Carter, Griffiths, Lim, *Principles of Econometrics*, 5th edition.
+- **Assessment.** Continuous assessment (practicals and quizzes) plus a final exam.
