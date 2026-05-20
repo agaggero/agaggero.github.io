@@ -9,12 +9,6 @@ subtitle: "Grado en Economía and Grado en ADE — Universidad de Granada"
 
 A second-year undergraduate course that walks students from the *idea* of an econometric model to the practical estimation, inference, and diagnostic skills required to analyse real economic data. Taught in English with R.
 
-## Open textbook
-
-An open companion textbook — ***Econometrics I: Theory, Practice, and Applications*** — is freely available under a **CC BY 4.0** license. It consolidates lecture notes, R tutorials, and interactive self-assessments into a single reproducible volume, built with Quarto.
-
-📖 Read the **[English edition](https://agaggero.github.io/econometrics-i/)** · **[edición en español](https://agaggero.github.io/econometria-i/)**.
-
 ## Chapter template
 
 Each topic follows the same six-section structure:

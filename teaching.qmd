@@ -14,8 +14,8 @@ title: Teaching
 
 ### Undergraduate
 
-- [Econometría I (ECOI)](teaching/econometria-i.html): undergraduate course on linear regression, inference, and diagnostics, taught in English with R. Open textbook: [English](https://agaggero.github.io/econometrics-i/) · [español](https://agaggero.github.io/econometria-i/).
-- [Técnicas Cuantitativas I (TC1)](teaching/tecnicas-cuantitativas-i.html): first-year course on descriptive statistics, probability, and time series, with Excel and R labs. [Open textbook](https://agaggero.github.io/quantitative-techniques-i/).
+- [Econometría I (ECOI)](teaching/econometria-i.html): undergraduate course on linear regression, inference, and diagnostics, taught in English with R.
+- [Técnicas Cuantitativas I (TC1)](teaching/tecnicas-cuantitativas-i.html): first-year course on descriptive statistics, probability, and time series, with Excel and R labs.
 
 :::
 

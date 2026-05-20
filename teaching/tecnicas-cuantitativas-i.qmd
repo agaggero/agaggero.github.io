@@ -9,12 +9,6 @@ subtitle: "Grado en ADE and Grado en Economía — Universidad de Granada"
 
 A first-year undergraduate course covering descriptive statistics, probability theory, and an introduction to time series — the quantitative foundations students need before tackling econometrics. Hands-on labs in Excel and R.
 
-## Open textbook
-
-An open companion textbook — ***Quantitative Techniques I*** — is freely available under a **CC BY 4.0** license, consolidating lecture notes, problem sets, and Excel/R labs into a single reproducible volume built with Quarto.
-
-📖 Read the **[online edition](https://agaggero.github.io/quantitative-techniques-i/)**.
-
 ## Topics
 
 1. **[Univariate analysis](https://agaggero.github.io/quantitative-techniques-i/chapters/01-univariate.html).** Descriptive statistics for a single variable — central tendency, dispersion, shape; histograms and boxplots; data exploration in Excel and R.

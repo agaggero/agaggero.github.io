@@ -15,8 +15,8 @@ lang: es
 
 ### Grado
 
-- [Econometría I (ECOI)](teaching/econometria-i.html): asignatura de grado sobre regresión lineal, inferencia y diagnóstico, impartida en inglés con R. Libro de texto abierto: [español](https://agaggero.github.io/econometria-i/) · [English](https://agaggero.github.io/econometrics-i/).
-- [Técnicas Cuantitativas I (TC1)](teaching/tecnicas-cuantitativas-i.html): asignatura de primer curso sobre estadística descriptiva, probabilidad y series temporales, con prácticas en Excel y R. [Libro de texto abierto](https://agaggero.github.io/quantitative-techniques-i/) (en inglés).
+- [Econometría I (ECOI)](teaching/econometria-i.html): asignatura de grado sobre regresión lineal, inferencia y diagnóstico, impartida en inglés con R.
+- [Técnicas Cuantitativas I (TC1)](teaching/tecnicas-cuantitativas-i.html): asignatura de primer curso sobre estadística descriptiva, probabilidad y series temporales, con prácticas en Excel y R.
 
 :::
 
