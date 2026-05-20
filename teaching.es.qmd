@@ -15,8 +15,8 @@ lang: es
 
 ### Grado
 
-- **Econometría I (ECOI)**, Universidad de Granada — *descripción del curso por añadir.*
-- **Técnicas Cuantitativas I (TC1)**, Universidad de Granada — *descripción del curso por añadir.*
+- [Econometría I (ECOI)](teaching/econometria-i.html): asignatura de grado sobre regresión lineal, inferencia y diagnóstico, impartida en inglés con R. *Libro de texto abierto en preparación.*
+- [Técnicas Cuantitativas I (TC1)](teaching/tecnicas-cuantitativas-i.html): asignatura de primer curso sobre estadística descriptiva, probabilidad y series temporales, con prácticas en Excel y R.
 
 :::
 
@@ -27,11 +27,7 @@ lang: es
 
 ### Posgrado
 
-***Máster Universitario en Técnicas Cuantitativas en Gestión Empresarial***
-
-- Fundamentos Avanzados en Métodos Cuantitativos
-- Predicción Económica-Empresarial
-
+- Máster Universitario en Técnicas Cuantitativas en Gestión Empresarial: módulos de *Fundamentos Avanzados en Métodos Cuantitativos* y *Predicción Económica-Empresarial*.
 - [Inferencia Causal](teaching/phd-causal-inference.html): Doctorado — módulos cortos sobre inferencia causal para la microeconometría aplicada.
 
 :::
