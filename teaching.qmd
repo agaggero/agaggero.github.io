@@ -31,7 +31,7 @@ title: Teaching
 - Fundamentos Avanzados en Métodos Cuantitativos
 - Predicción Económica-Empresarial
 
-***PhD — short modules on causal inference for applied microeconometrics***
+***[PhD — short modules on causal inference for applied microeconometrics](teaching/phd-causal-inference.html)***
 
 - Potential outcomes framework
 - Randomised experiments
@@ -44,7 +44,7 @@ title: Teaching
 
 ::: {.text-center style="margin: 2em 0; padding: 1em; border-top: 1px solid rgba(255,255,255,0.1); border-bottom: 1px solid rgba(255,255,255,0.1);"}
 
-I'm available to deliver short courses on **causal inference and applied microeconometrics** to other institutions, PhD programmes, firms, and public bodies — in English or Spanish. [Get in touch](mailto:alessiogaggero@ugr.es).
+**These PhD modules are also available as short courses for other institutions, PhD programmes, research institutes, firms, and public bodies — in English or Spanish.** [Get in touch](mailto:alessiogaggero@ugr.es) to discuss a fit for your programme.
 
 :::
 

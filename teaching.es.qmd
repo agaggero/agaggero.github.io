@@ -32,7 +32,7 @@ lang: es
 - Fundamentos Avanzados en Métodos Cuantitativos
 - Predicción Económica-Empresarial
 
-***Doctorado — módulos cortos sobre inferencia causal para la microeconometría aplicada***
+***[Doctorado — módulos cortos sobre inferencia causal para la microeconometría aplicada](teaching/phd-causal-inference.html)***
 
 - Marco de resultados potenciales
 - Experimentos aleatorios
@@ -45,7 +45,7 @@ lang: es
 
 ::: {.text-center style="margin: 2em 0; padding: 1em; border-top: 1px solid rgba(255,255,255,0.1); border-bottom: 1px solid rgba(255,255,255,0.1);"}
 
-Estoy disponible para impartir cursos cortos sobre **inferencia causal y microeconometría aplicada** en otras instituciones, programas de doctorado, empresas y organismos públicos — en inglés o español. [Escríbeme](mailto:alessiogaggero@ugr.es).
+**Estos módulos de doctorado también están disponibles como cursos cortos para otras instituciones, programas de doctorado, centros de investigación, empresas y organismos públicos — en inglés o español.** [Escríbeme](mailto:alessiogaggero@ugr.es) para hablarlo.
 
 :::
 

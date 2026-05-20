@@ -1,0 +1,33 @@
+---
+title: "PhD Modules: Causal Inference for Applied Microeconometrics"
+subtitle: "Short courses for PhD programmes, research institutes, and public bodies"
+---
+
+::: {style="text-align: right; margin-bottom: 1em;"}
+[← Back to Teaching](../teaching.html){.btn .btn-sm .btn-outline-secondary}
+:::
+
+A set of short, self-contained modules on the core methods used in applied microeconometrics for credible causal inference. Each module can stand alone or be combined into a one- or two-week intensive PhD course.
+
+## Modules
+
+1. **Potential outcomes framework.** The Rubin causal model; treatment effects (ATE, ATT, LATE); selection bias and the fundamental problem of causal inference; identifying assumptions and what credible identification looks like in practice.
+
+2. **Randomised experiments.** Why randomisation solves the selection problem; sampling vs assignment; block, cluster, and stratified designs; analysis of RCTs; field-experiment practicalities and common threats (attrition, non-compliance, Hawthorne effects, spillovers).
+
+3. **Regression discontinuity design (RDD).** Sharp vs fuzzy designs; identification through local randomisation; bandwidth selection, local polynomials, and bias-corrected confidence intervals; validity checks (manipulation tests, covariate balance); applied examples in health and education.
+
+4. **Difference-in-differences (DiD).** The two-period 2×2 design; parallel trends as the identifying assumption; event-study and dynamic specifications; staggered adoption and the recent econometric literature (Callaway–Sant'Anna, de Chaisemartin–D'Haultfœuille, Sun–Abraham, Borusyak–Jaravel–Spiess); inference with few clusters.
+
+## Course logistics
+
+- **Audience.** PhD students, early-career researchers, and applied economists in research institutes, regulators, and policy units.
+- **Format.** Lectures plus worked examples in R and hands-on labs. Modular — each module is self-contained.
+- **Length.** Around 4-6 hours per module; the full set is typically delivered as a 16-24 hour intensive course.
+- **Language of instruction.** English or Spanish.
+- **Software.** R via RStudio. Stata code can be provided on request.
+- **Materials.** Slides, R scripts, replication datasets, and graded exercises.
+
+## Availability
+
+These modules are available for delivery at other institutions and PhD programmes, as well as for research institutes, firms, and public bodies — in English or Spanish. [Get in touch](mailto:alessiogaggero@ugr.es) to discuss a fit for your programme.
