@@ -9,6 +9,12 @@ subtitle: "Grado en Economía and Grado en ADE — Universidad de Granada"
 
 A second-year undergraduate course that walks students from the *idea* of an econometric model to the practical estimation, inference, and diagnostic skills required to analyse real economic data. Taught in English with R.
 
+## Open textbook
+
+An open companion textbook — ***Econometrics I: Theory, Practice, and Applications*** — is freely available under a **CC BY 4.0** license. It consolidates lecture notes, R tutorials, and interactive self-assessments into a single reproducible volume, built with Quarto.
+
+📖 Read the **[English edition](https://agaggero.github.io/econometrics-i/)** · **[edición en español](https://agaggero.github.io/econometria-i/)**.
+
 ## Chapter template
 
 Each topic follows the same six-section structure:
@@ -22,29 +28,23 @@ Each topic follows the same six-section structure:
 
 ## Topics
 
-1. **Initial Concepts.** What econometrics is; correlation vs causation; randomisation and quasi-experimental designs; cross-section, time series, panel and pooled data; basic exploratory analysis in R.
+1. **[Initial Concepts](https://agaggero.github.io/econometrics-i/chapters/01-initial-concepts.html).** What econometrics is; correlation vs causation; randomisation and quasi-experimental designs; cross-section, time series, panel and pooled data; basic exploratory analysis in R.
 
-2. **The Simple Linear Regression Model.** OLS derivation; Gauss–Markov assumptions; unbiasedness; the BLUE property; $R^2$; `lm()` in R.
+2. **[The Simple Linear Regression Model](https://agaggero.github.io/econometrics-i/chapters/02-simple-regression.html).** OLS derivation; Gauss–Markov assumptions; unbiasedness; the BLUE property; $R^2$; `lm()` in R.
 
-3. **The Multiple Linear Regression Model.** Matrix form; *ceteris paribus* interpretation; MLR.1–MLR.5; omitted-variable bias; adjusted $R^2$.
+3. **[The Multiple Linear Regression Model](https://agaggero.github.io/econometrics-i/chapters/03-multiple-regression.html).** Matrix form; *ceteris paribus* interpretation; MLR.1–MLR.5; omitted-variable bias; adjusted $R^2$.
 
-4. **Inference.** Classical Linear Model assumptions; sampling distributions of $\hat{\beta}_j$; $t$-tests; confidence intervals; $F$-tests for joint significance; $p$-values.
+4. **[Inference](https://agaggero.github.io/econometrics-i/chapters/04-inference.html).** Classical Linear Model assumptions; sampling distributions of $\hat{\beta}_j$; $t$-tests; confidence intervals; $F$-tests for joint significance; $p$-values.
 
-5. **Prediction and Model Selection.** Point and interval prediction; in-sample vs out-of-sample performance; model-selection criteria.
+5. **[Prediction and Model Selection](https://agaggero.github.io/econometrics-i/chapters/05-prediction.html).** Point and interval prediction; in-sample vs out-of-sample performance; model-selection criteria.
 
-6. **Nonlinear Relationships and Qualitative Information.** Logarithms, polynomials, and interactions; dummy variables and dummy–continuous interactions.
+6. **[Nonlinear Relationships and Qualitative Information](https://agaggero.github.io/econometrics-i/chapters/06-nonlinear-qualitative.html).** Logarithms, polynomials, and interactions; dummy variables and dummy–continuous interactions.
 
-7. **Heteroskedasticity.** Detection (Breusch–Pagan, White); consequences for inference; heteroskedasticity-robust standard errors; weighted least squares.
+7. **[Heteroskedasticity](https://agaggero.github.io/econometrics-i/chapters/07-heteroskedasticity.html).** Detection (Breusch–Pagan, White); consequences for inference; heteroskedasticity-robust standard errors; weighted least squares.
 
-8. **Autocorrelation.** Time-series complications; Durbin–Watson; Newey–West standard errors.
+8. **[Autocorrelation](https://agaggero.github.io/econometrics-i/chapters/08-autocorrelation.html).** Time-series complications; Durbin–Watson; Newey–West standard errors.
 
-**Appendices** — mathematical and statistical prerequisites · Wooldridge ↔ Carter–Griffiths–Lim crosswalk · statistical tables.
-
-## Open textbook
-
-I'm writing an open companion textbook — ***Econometrics I: Theory, Practice, and Applications*** — under a **CC BY 4.0** license. It consolidates three years of teaching materials (lecture notes, R tutorials, and interactive self-assessments) into a single reproducible volume, built with Quarto.
-
-📖 *Online edition coming soon. A Spanish edition is in preparation.*
+**Appendices** — [mathematical and statistical prerequisites](https://agaggero.github.io/econometrics-i/chapters/appendix-a-prerequisites.html) · [Wooldridge ↔ Carter–Griffiths–Lim crosswalk](https://agaggero.github.io/econometrics-i/chapters/appendix-b-wooldridge-cgl-crosswalk.html) · [statistical tables](https://agaggero.github.io/econometrics-i/chapters/appendix-c-tables.html).
 
 ## Course logistics
 

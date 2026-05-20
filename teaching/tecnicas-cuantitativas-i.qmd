@@ -9,21 +9,29 @@ subtitle: "Grado en ADE and Grado en Economía — Universidad de Granada"
 
 A first-year undergraduate course covering descriptive statistics, probability theory, and an introduction to time series — the quantitative foundations students need before tackling econometrics. Hands-on labs in Excel and R.
 
+## Open textbook
+
+An open companion textbook — ***Quantitative Techniques I*** — is freely available under a **CC BY 4.0** license, consolidating lecture notes, problem sets, and Excel/R labs into a single reproducible volume built with Quarto.
+
+📖 Read the **[online edition](https://agaggero.github.io/quantitative-techniques-i/)**.
+
 ## Topics
 
-1. **Univariate analysis.** Descriptive statistics for a single variable — central tendency, dispersion, shape; histograms and boxplots; data exploration in Excel and R.
+1. **[Univariate analysis](https://agaggero.github.io/quantitative-techniques-i/chapters/01-univariate.html).** Descriptive statistics for a single variable — central tendency, dispersion, shape; histograms and boxplots; data exploration in Excel and R.
 
-2. **Bivariate analysis.** Joint behaviour of two variables — covariance, correlation, contingency tables; the simple linear regression as a descriptive tool.
+2. **[Bivariate analysis](https://agaggero.github.io/quantitative-techniques-i/chapters/02-bivariate.html).** Joint behaviour of two variables — covariance, correlation, contingency tables; the simple linear regression as a descriptive tool.
 
-3. **Probability.** Set-theoretic foundations and axioms; conditional probability and Bayes' theorem; independence; combinatorics.
+3. **[Probability](https://agaggero.github.io/quantitative-techniques-i/chapters/03-probability.html).** Set-theoretic foundations and axioms; conditional probability and Bayes' theorem; independence; combinatorics.
 
-4. **Random variables.** Discrete and continuous random variables; expectation, variance, moments; joint and conditional distributions.
+4. **[Random variables](https://agaggero.github.io/quantitative-techniques-i/chapters/04-random-variables.html).** Discrete and continuous random variables; expectation, variance, moments; joint and conditional distributions.
 
-5. **Distributions.** Common probability models — Bernoulli, Binomial, Poisson, Normal, Student's $t$, $\chi^2$, $F$ — and their applications.
+5. **[Distributions](https://agaggero.github.io/quantitative-techniques-i/chapters/05-distributions.html).** Common probability models — Bernoulli, Binomial, Poisson, Normal, Student's $t$, $\chi^2$, $F$ — and their applications.
 
-6. **Index numbers.** Price and quantity indices (Laspeyres, Paasche, Fisher); inflation; chained vs fixed-base indices.
+6. **[Index numbers](https://agaggero.github.io/quantitative-techniques-i/chapters/06-index-numbers.html).** Price and quantity indices (Laspeyres, Paasche, Fisher); inflation; chained vs fixed-base indices.
 
-7. **Time series.** Components (trend, seasonality, cycle, irregular); decomposition; moving averages; smoothing.
+7. **[Time series](https://agaggero.github.io/quantitative-techniques-i/chapters/07-time-series.html).** Components (trend, seasonality, cycle, irregular); decomposition; moving averages; smoothing.
+
+**Appendices** — [mathematical and statistical prerequisites](https://agaggero.github.io/quantitative-techniques-i/chapters/appendix-a-prerequisites.html) · [statistical tables](https://agaggero.github.io/quantitative-techniques-i/chapters/appendix-b-tables.html).
 
 ## Course logistics
 
@@ -36,5 +44,3 @@ A first-year undergraduate course covering descriptive statistics, probability t
 ## Materials
 
 Lecture notes, beamer slides, problem sets with solutions, and per-topic Excel and R lab scripts.
-
-📖 *An open textbook based on these materials — modelled on the* Econometrics I *project — is in early planning.*

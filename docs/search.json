@@ -18,7 +18,7 @@
     "href": "teaching.es.html#cursos",
     "title": "Docencia",
     "section": "Cursos",
-    "text": "Cursos\n\n\n\nGrado\n\nEconometría I (ECOI): asignatura de grado sobre regresión lineal, inferencia y diagnóstico, impartida en inglés con R. Libro de texto abierto en preparación.\nTécnicas Cuantitativas I (TC1): asignatura de primer curso sobre estadística descriptiva, probabilidad y series temporales, con prácticas en Excel y R.\n\n\n\n\n\n\nPosgrado\n\nMáster Universitario en Técnicas Cuantitativas en Gestión Empresarial: módulos de Fundamentos Avanzados en Métodos Cuantitativos y Predicción Económica-Empresarial.\nInferencia Causal: Doctorado — módulos cortos sobre inferencia causal para la microeconometría aplicada.\n\n\n\n\n\nEstos módulos de doctorado también están disponibles como cursos cortos para otras instituciones, programas de doctorado, centros de investigación, empresas y organismos públicos — en inglés o español. Escríbeme para hablarlo."
+    "text": "Cursos\n\n\n\nGrado\n\nEconometría I (ECOI): asignatura de grado sobre regresión lineal, inferencia y diagnóstico, impartida en inglés con R. Libro de texto abierto: español · English.\nTécnicas Cuantitativas I (TC1): asignatura de primer curso sobre estadística descriptiva, probabilidad y series temporales, con prácticas en Excel y R. Libro de texto abierto (en inglés).\n\n\n\n\n\n\nPosgrado\n\nMáster Universitario en Técnicas Cuantitativas en Gestión Empresarial: módulos de Fundamentos Avanzados en Métodos Cuantitativos y Predicción Económica-Empresarial.\nInferencia Causal: Doctorado — módulos cortos sobre inferencia causal para la microeconometría aplicada.\n\n\n\n\n\nEstos módulos de doctorado también están disponibles como cursos cortos para otras instituciones, programas de doctorado, centros de investigación, empresas y organismos públicos — en inglés o español. Escríbeme para hablarlo."
   },
   {
     "objectID": "teaching.es.html#proyectos-docentes",
@@ -301,6 +301,13 @@
     "text": "← Back to Teaching\nA second-year undergraduate course that walks students from the idea of an econometric model to the practical estimation, inference, and diagnostic skills required to analyse real economic data. Taught in English with R."
   },
   {
+    "objectID": "teaching/econometria-i.html#open-textbook",
+    "href": "teaching/econometria-i.html#open-textbook",
+    "title": "Econometría I",
+    "section": "Open textbook",
+    "text": "Open textbook\nAn open companion textbook — Econometrics I: Theory, Practice, and Applications — is freely available under a CC BY 4.0 license. It consolidates lecture notes, R tutorials, and interactive self-assessments into a single reproducible volume, built with Quarto.\n📖 Read the English edition · edición en español."
+  },
+  {
     "objectID": "teaching/econometria-i.html#chapter-template",
     "href": "teaching/econometria-i.html#chapter-template",
     "title": "Econometría I",
@@ -313,13 +320,6 @@
     "title": "Econometría I",
     "section": "Topics",
     "text": "Topics\n\nInitial Concepts. What econometrics is; correlation vs causation; randomisation and quasi-experimental designs; cross-section, time series, panel and pooled data; basic exploratory analysis in R.\nThe Simple Linear Regression Model. OLS derivation; Gauss–Markov assumptions; unbiasedness; the BLUE property; \\(R^2\\); lm() in R.\nThe Multiple Linear Regression Model. Matrix form; ceteris paribus interpretation; MLR.1–MLR.5; omitted-variable bias; adjusted \\(R^2\\).\nInference. Classical Linear Model assumptions; sampling distributions of \\(\\hat{\\beta}_j\\); \\(t\\)-tests; confidence intervals; \\(F\\)-tests for joint significance; \\(p\\)-values.\nPrediction and Model Selection. Point and interval prediction; in-sample vs out-of-sample performance; model-selection criteria.\nNonlinear Relationships and Qualitative Information. Logarithms, polynomials, and interactions; dummy variables and dummy–continuous interactions.\nHeteroskedasticity. Detection (Breusch–Pagan, White); consequences for inference; heteroskedasticity-robust standard errors; weighted least squares.\nAutocorrelation. Time-series complications; Durbin–Watson; Newey–West standard errors.\n\nAppendices — mathematical and statistical prerequisites · Wooldridge ↔︎ Carter–Griffiths–Lim crosswalk · statistical tables."
-  },
-  {
-    "objectID": "teaching/econometria-i.html#open-textbook",
-    "href": "teaching/econometria-i.html#open-textbook",
-    "title": "Econometría I",
-    "section": "Open textbook",
-    "text": "Open textbook\nI’m writing an open companion textbook — Econometrics I: Theory, Practice, and Applications — under a CC BY 4.0 license. It consolidates three years of teaching materials (lecture notes, R tutorials, and interactive self-assessments) into a single reproducible volume, built with Quarto.\n📖 Online edition coming soon. A Spanish edition is in preparation."
   },
   {
     "objectID": "teaching/econometria-i.html#course-logistics",
@@ -336,11 +336,18 @@
     "text": "← Back to Teaching\nA first-year undergraduate course covering descriptive statistics, probability theory, and an introduction to time series — the quantitative foundations students need before tackling econometrics. Hands-on labs in Excel and R."
   },
   {
+    "objectID": "teaching/tecnicas-cuantitativas-i.html#open-textbook",
+    "href": "teaching/tecnicas-cuantitativas-i.html#open-textbook",
+    "title": "Técnicas Cuantitativas I",
+    "section": "Open textbook",
+    "text": "Open textbook\nAn open companion textbook — Quantitative Techniques I — is freely available under a CC BY 4.0 license, consolidating lecture notes, problem sets, and Excel/R labs into a single reproducible volume built with Quarto.\n📖 Read the online edition."
+  },
+  {
     "objectID": "teaching/tecnicas-cuantitativas-i.html#topics",
     "href": "teaching/tecnicas-cuantitativas-i.html#topics",
     "title": "Técnicas Cuantitativas I",
     "section": "Topics",
-    "text": "Topics\n\nUnivariate analysis. Descriptive statistics for a single variable — central tendency, dispersion, shape; histograms and boxplots; data exploration in Excel and R.\nBivariate analysis. Joint behaviour of two variables — covariance, correlation, contingency tables; the simple linear regression as a descriptive tool.\nProbability. Set-theoretic foundations and axioms; conditional probability and Bayes’ theorem; independence; combinatorics.\nRandom variables. Discrete and continuous random variables; expectation, variance, moments; joint and conditional distributions.\nDistributions. Common probability models — Bernoulli, Binomial, Poisson, Normal, Student’s \\(t\\), \\(\\chi^2\\), \\(F\\) — and their applications.\nIndex numbers. Price and quantity indices (Laspeyres, Paasche, Fisher); inflation; chained vs fixed-base indices.\nTime series. Components (trend, seasonality, cycle, irregular); decomposition; moving averages; smoothing."
+    "text": "Topics\n\nUnivariate analysis. Descriptive statistics for a single variable — central tendency, dispersion, shape; histograms and boxplots; data exploration in Excel and R.\nBivariate analysis. Joint behaviour of two variables — covariance, correlation, contingency tables; the simple linear regression as a descriptive tool.\nProbability. Set-theoretic foundations and axioms; conditional probability and Bayes’ theorem; independence; combinatorics.\nRandom variables. Discrete and continuous random variables; expectation, variance, moments; joint and conditional distributions.\nDistributions. Common probability models — Bernoulli, Binomial, Poisson, Normal, Student’s \\(t\\), \\(\\chi^2\\), \\(F\\) — and their applications.\nIndex numbers. Price and quantity indices (Laspeyres, Paasche, Fisher); inflation; chained vs fixed-base indices.\nTime series. Components (trend, seasonality, cycle, irregular); decomposition; moving averages; smoothing.\n\nAppendices — mathematical and statistical prerequisites · statistical tables."
   },
   {
     "objectID": "teaching/tecnicas-cuantitativas-i.html#course-logistics",
@@ -354,7 +361,7 @@
     "href": "teaching/tecnicas-cuantitativas-i.html#materials",
     "title": "Técnicas Cuantitativas I",
     "section": "Materials",
-    "text": "Materials\nLecture notes, beamer slides, problem sets with solutions, and per-topic Excel and R lab scripts.\n📖 An open textbook based on these materials — modelled on the Econometrics I project — is in early planning."
+    "text": "Materials\nLecture notes, beamer slides, problem sets with solutions, and per-topic Excel and R lab scripts."
   },
   {
     "objectID": "teaching.html",
@@ -368,7 +375,7 @@
     "href": "teaching.html#courses",
     "title": "Teaching",
     "section": "Courses",
-    "text": "Courses\n\n\n\nUndergraduate\n\nEconometría I (ECOI): undergraduate course on linear regression, inference, and diagnostics, taught in English with R. Open textbook in preparation.\nTécnicas Cuantitativas I (TC1): first-year course on descriptive statistics, probability, and time series, with Excel and R labs.\n\n\n\n\n\n\nPostgraduate\n\nMáster Universitario en Técnicas Cuantitativas en Gestión Empresarial: modules in Fundamentos Avanzados en Métodos Cuantitativos and Predicción Económica-Empresarial.\nCausal Inference: PhD — short modules on causal inference for applied microeconometrics.\n\n\n\n\n\nThese PhD modules are also available as short courses for other institutions, PhD programmes, research institutes, firms, and public bodies — in English or Spanish. Get in touch to discuss a fit for your programme."
+    "text": "Courses\n\n\n\nUndergraduate\n\nEconometría I (ECOI): undergraduate course on linear regression, inference, and diagnostics, taught in English with R. Open textbook: English · español.\nTécnicas Cuantitativas I (TC1): first-year course on descriptive statistics, probability, and time series, with Excel and R labs. Open textbook.\n\n\n\n\n\n\nPostgraduate\n\nMáster Universitario en Técnicas Cuantitativas en Gestión Empresarial: modules in Fundamentos Avanzados en Métodos Cuantitativos and Predicción Económica-Empresarial.\nCausal Inference: PhD — short modules on causal inference for applied microeconometrics.\n\n\n\n\n\nThese PhD modules are also available as short courses for other institutions, PhD programmes, research institutes, firms, and public bodies — in English or Spanish. Get in touch to discuss a fit for your programme."
   },
   {
     "objectID": "teaching.html#teaching-projects",
