@@ -32,12 +32,7 @@ lang: es
 - Fundamentos Avanzados en Métodos Cuantitativos
 - Predicción Económica-Empresarial
 
-***[Doctorado — módulos cortos sobre inferencia causal para la microeconometría aplicada](teaching/phd-causal-inference.html)***
-
-- Marco de resultados potenciales
-- Experimentos aleatorios
-- Regresión por discontinuidad (RDD)
-- Diferencias en diferencias (DiD)
+- [Inferencia Causal](teaching/phd-causal-inference.html): Doctorado — módulos cortos sobre inferencia causal para la microeconometría aplicada.
 
 :::
 

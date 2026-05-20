@@ -31,12 +31,7 @@ title: Teaching
 - Fundamentos Avanzados en Métodos Cuantitativos
 - Predicción Económica-Empresarial
 
-***[PhD — short modules on causal inference for applied microeconometrics](teaching/phd-causal-inference.html)***
-
-- Potential outcomes framework
-- Randomised experiments
-- Regression discontinuity design (RDD)
-- Difference-in-differences (DiD)
+- [Causal Inference](teaching/phd-causal-inference.html): PhD — short modules on causal inference for applied microeconometrics.
 
 :::
 

@@ -359,22 +359,36 @@
   {
     "objectID": "teaching.html",
     "href": "teaching.html",
-    "title": "Teaching",
+    "title": "Docencia",
     "section": "",
     "text": "Ver en español"
   },
   {
     "objectID": "teaching.html#courses",
     "href": "teaching.html#courses",
-    "title": "Teaching",
+    "title": "Docencia",
     "section": "Courses",
-    "text": "Courses\n\n\n\nUndergraduate\n\nEconometría I (ECOI), Universidad de Granada — undergraduate course on linear regression, inference, and diagnostics, taught in English with R. Open textbook in preparation.\nTécnicas Cuantitativas I (TC1), Universidad de Granada — first-year course on descriptive statistics, probability, and time series, with Excel and R labs.\n\n\n\n\n\n\nPostgraduate\nMáster Universitario en Técnicas Cuantitativas en Gestión Empresarial\n\nFundamentos Avanzados en Métodos Cuantitativos\nPredicción Económica-Empresarial\n\nPhD — short modules on causal inference for applied microeconometrics\n\nPotential outcomes framework\nRandomised experiments\nRegression discontinuity design (RDD)\nDifference-in-differences (DiD)\n\n\n\n\n\nThese PhD modules are also available as short courses for other institutions, PhD programmes, research institutes, firms, and public bodies — in English or Spanish. Get in touch to discuss a fit for your programme."
+    "text": "Courses\n\n\n\nUndergraduate\n\nEconometría I (ECOI), Universidad de Granada — undergraduate course on linear regression, inference, and diagnostics, taught in English with R. Open textbook in preparation.\nTécnicas Cuantitativas I (TC1), Universidad de Granada — first-year course on descriptive statistics, probability, and time series, with Excel and R labs.\n\n\n\n\n\n\nPostgraduate\nMáster Universitario en Técnicas Cuantitativas en Gestión Empresarial\n\nFundamentos Avanzados en Métodos Cuantitativos\nPredicción Económica-Empresarial\nCausal Inference: PhD — short modules on causal inference for applied microeconometrics.\n\n\n\n\n\nThese PhD modules are also available as short courses for other institutions, PhD programmes, research institutes, firms, and public bodies — in English or Spanish. Get in touch to discuss a fit for your programme."
   },
   {
     "objectID": "teaching.html#teaching-projects",
     "href": "teaching.html#teaching-projects",
-    "title": "Teaching",
+    "title": "Docencia",
     "section": "Teaching projects",
-    "text": "Teaching projects\nI’m developing inquiry-based and Socratic approaches to teaching quantitative methods at undergraduate level. More to follow as the work matures."
+    "text": "Teaching projects\nI’m developing inquiry-based and Socratic approaches to teaching quantitative methods at undergraduate level. More to follow as the work matures.\n\n\n\nView in English"
+  },
+  {
+    "objectID": "teaching.html#cursos",
+    "href": "teaching.html#cursos",
+    "title": "Docencia",
+    "section": "Cursos",
+    "text": "Cursos\n\n\n\nGrado\n\nEconometría I (ECOI), Universidad de Granada — descripción del curso por añadir.\nTécnicas Cuantitativas I (TC1), Universidad de Granada — descripción del curso por añadir.\n\n\n\n\n\n\nPosgrado\nMáster Universitario en Técnicas Cuantitativas en Gestión Empresarial\n\nFundamentos Avanzados en Métodos Cuantitativos\nPredicción Económica-Empresarial\nInferencia Causal: Doctorado — módulos cortos sobre inferencia causal para la microeconometría aplicada.\n\n\n\n\n\nEstos módulos de doctorado también están disponibles como cursos cortos para otras instituciones, programas de doctorado, centros de investigación, empresas y organismos públicos — en inglés o español. Escríbeme para hablarlo."
+  },
+  {
+    "objectID": "teaching.html#proyectos-docentes",
+    "href": "teaching.html#proyectos-docentes",
+    "title": "Docencia",
+    "section": "Proyectos docentes",
+    "text": "Proyectos docentes\nEstoy desarrollando enfoques de aprendizaje basado en la indagación y socráticos para la enseñanza de métodos cuantitativos a nivel de grado. Más información a medida que el trabajo avance."
   }
 ]
