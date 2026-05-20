@@ -18,7 +18,7 @@
     "href": "teaching.es.html#cursos",
     "title": "Docencia",
     "section": "Cursos",
-    "text": "Cursos\n\n\n\nGrado\n\nEconometría I (ECOI), Universidad de Granada — descripción del curso por añadir.\nTécnicas Cuantitativas I (TC1), Universidad de Granada — descripción del curso por añadir.\n\n\n\n\n\n\nPosgrado\nMáster Universitario en Técnicas Cuantitativas en Gestión Empresarial\n\nFundamentos Avanzados en Métodos Cuantitativos\nPredicción Económica-Empresarial\n\nDoctorado — módulos cortos sobre inferencia causal para la microeconometría aplicada\n\nMarco de resultados potenciales\nExperimentos aleatorios\nRegresión por discontinuidad (RDD)\nDiferencias en diferencias (DiD)\n\n\n\n\n\nEstos módulos de doctorado también están disponibles como cursos cortos para otras instituciones, programas de doctorado, centros de investigación, empresas y organismos públicos — en inglés o español. Escríbeme para hablarlo."
+    "text": "Cursos\n\n\n\nGrado\n\nEconometría I (ECOI): asignatura de grado sobre regresión lineal, inferencia y diagnóstico, impartida en inglés con R. Libro de texto abierto en preparación.\nTécnicas Cuantitativas I (TC1): asignatura de primer curso sobre estadística descriptiva, probabilidad y series temporales, con prácticas en Excel y R.\n\n\n\n\n\n\nPosgrado\n\nMáster Universitario en Técnicas Cuantitativas en Gestión Empresarial: módulos de Fundamentos Avanzados en Métodos Cuantitativos y Predicción Económica-Empresarial.\nInferencia Causal: Doctorado — módulos cortos sobre inferencia causal para la microeconometría aplicada.\n\n\n\n\n\nEstos módulos de doctorado también están disponibles como cursos cortos para otras instituciones, programas de doctorado, centros de investigación, empresas y organismos públicos — en inglés o español. Escríbeme para hablarlo."
   },
   {
     "objectID": "teaching.es.html#proyectos-docentes",
@@ -359,36 +359,22 @@
   {
     "objectID": "teaching.html",
     "href": "teaching.html",
-    "title": "Docencia",
+    "title": "Teaching",
     "section": "",
     "text": "Ver en español"
   },
   {
     "objectID": "teaching.html#courses",
     "href": "teaching.html#courses",
-    "title": "Docencia",
+    "title": "Teaching",
     "section": "Courses",
     "text": "Courses\n\n\n\nUndergraduate\n\nEconometría I (ECOI): undergraduate course on linear regression, inference, and diagnostics, taught in English with R. Open textbook in preparation.\nTécnicas Cuantitativas I (TC1): first-year course on descriptive statistics, probability, and time series, with Excel and R labs.\n\n\n\n\n\n\nPostgraduate\n\nMáster Universitario en Técnicas Cuantitativas en Gestión Empresarial: modules in Fundamentos Avanzados en Métodos Cuantitativos and Predicción Económica-Empresarial.\nCausal Inference: PhD — short modules on causal inference for applied microeconometrics.\n\n\n\n\n\nThese PhD modules are also available as short courses for other institutions, PhD programmes, research institutes, firms, and public bodies — in English or Spanish. Get in touch to discuss a fit for your programme."
   },
   {
     "objectID": "teaching.html#teaching-projects",
     "href": "teaching.html#teaching-projects",
-    "title": "Docencia",
+    "title": "Teaching",
     "section": "Teaching projects",
-    "text": "Teaching projects\nI’m developing inquiry-based and Socratic approaches to teaching quantitative methods at undergraduate level. More to follow as the work matures.\n\n\n\nView in English"
-  },
-  {
-    "objectID": "teaching.html#cursos",
-    "href": "teaching.html#cursos",
-    "title": "Docencia",
-    "section": "Cursos",
-    "text": "Cursos\n\n\n\nGrado\n\nEconometría I (ECOI): asignatura de grado sobre regresión lineal, inferencia y diagnóstico, impartida en inglés con R. Libro de texto abierto en preparación.\nTécnicas Cuantitativas I (TC1): asignatura de primer curso sobre estadística descriptiva, probabilidad y series temporales, con prácticas en Excel y R.\n\n\n\n\n\n\nPosgrado\n\nMáster Universitario en Técnicas Cuantitativas en Gestión Empresarial: módulos de Fundamentos Avanzados en Métodos Cuantitativos y Predicción Económica-Empresarial.\nInferencia Causal: Doctorado — módulos cortos sobre inferencia causal para la microeconometría aplicada.\n\n\n\n\n\nEstos módulos de doctorado también están disponibles como cursos cortos para otras instituciones, programas de doctorado, centros de investigación, empresas y organismos públicos — en inglés o español. Escríbeme para hablarlo."
-  },
-  {
-    "objectID": "teaching.html#proyectos-docentes",
-    "href": "teaching.html#proyectos-docentes",
-    "title": "Docencia",
-    "section": "Proyectos docentes",
-    "text": "Proyectos docentes\nEstoy desarrollando enfoques de aprendizaje basado en la indagación y socráticos para la enseñanza de métodos cuantitativos a nivel de grado. Más información a medida que el trabajo avance."
+    "text": "Teaching projects\nI’m developing inquiry-based and Socratic approaches to teaching quantitative methods at undergraduate level. More to follow as the work matures."
   }
 ]
