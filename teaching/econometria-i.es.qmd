@@ -1,0 +1,51 @@
+---
+title: "Econometría I"
+subtitle: "Grado en Economía y Grado en ADE — Universidad de Granada"
+lang: es
+---
+
+::: {style="text-align: right; margin-bottom: 1em;"}
+[← Volver a Docencia](../teaching.es.html){.btn .btn-sm .btn-outline-secondary} [View in English](econometria-i.html){.btn .btn-sm .btn-outline-secondary}
+:::
+
+Asignatura de grado de segundo curso que acompaña al estudiante desde la *idea* de un modelo econométrico hasta las destrezas prácticas de estimación, inferencia y diagnóstico necesarias para analizar datos económicos reales. Impartida en inglés con R.
+
+## Plantilla de capítulo
+
+Cada tema sigue la misma estructura de seis secciones:
+
+1. **Resultados de aprendizaje** — objetivos explícitos
+2. **Pregunta empírica motivadora** — una pregunta real que el tema responde
+3. **Teoría** — conceptos, derivaciones y resultados clave
+4. **Ejemplo resuelto en R** — código completo explicado paso a paso
+5. **Autoevaluación** — cuestionario interactivo
+6. **Ejercicios** — calificados ★ fácil · ★★ medio · ★★★ analítico
+
+## Temas
+
+1. **[Conceptos Iniciales](https://agaggero.github.io/econometria-i/chapters/01-conceptos-iniciales.html).** Qué es la econometría; correlación frente a causalidad; aleatorización y diseños cuasi-experimentales; datos de corte transversal, series temporales, panel y datos combinados (*pooled*); análisis exploratorio básico en R.
+
+2. **[El Modelo de Regresión Lineal Simple](https://agaggero.github.io/econometria-i/chapters/02-regresion-simple.html).** Derivación de MCO; supuestos de Gauss–Markov; insesgadez; la propiedad ELIO (BLUE); $R^2$; `lm()` en R.
+
+3. **[El Modelo de Regresión Lineal Múltiple](https://agaggero.github.io/econometria-i/chapters/03-regresion-multiple.html).** Forma matricial; interpretación *ceteris paribus*; RLM.1–RLM.5; sesgo por variable omitida; $R^2$ ajustado.
+
+4. **[Inferencia](https://agaggero.github.io/econometria-i/chapters/04-inferencia.html).** Supuestos del Modelo Lineal Clásico; distribuciones muestrales de $\hat{\beta}_j$; contrastes $t$; intervalos de confianza; contrastes $F$ de significación conjunta; $p$-valores.
+
+5. **[Predicción y Selección de Modelos](https://agaggero.github.io/econometria-i/chapters/05-prediccion.html).** Predicción puntual y por intervalos; rendimiento dentro y fuera de la muestra; criterios de selección de modelos.
+
+6. **[Relaciones No Lineales e Información Cualitativa](https://agaggero.github.io/econometria-i/chapters/06-no-lineal-cualitativa.html).** Logaritmos, polinomios e interacciones; variables ficticias (*dummy*) e interacciones ficticia–continua.
+
+7. **[Heterocedasticidad](https://agaggero.github.io/econometria-i/chapters/07-heterocedasticidad.html).** Detección (Breusch–Pagan, White); consecuencias para la inferencia; errores estándar robustos a heterocedasticidad; mínimos cuadrados ponderados.
+
+8. **[Autocorrelación](https://agaggero.github.io/econometria-i/chapters/08-autocorrelacion.html).** Complicaciones en series temporales; Durbin–Watson; errores estándar de Newey–West.
+
+**Apéndices** — [prerrequisitos matemáticos y estadísticos](https://agaggero.github.io/econometria-i/chapters/apendice-a-prerrequisitos.html) · [crosswalk Wooldridge ↔ Carter–Griffiths–Lim](https://agaggero.github.io/econometria-i/chapters/apendice-b-crosswalk-wooldridge-cgl.html) · [tablas estadísticas](https://agaggero.github.io/econometria-i/chapters/apendice-c-tablas.html).
+
+## Información del curso
+
+- **Titulación.** Grado en Economía · Grado en Administración y Dirección de Empresas
+- **Nivel.** Segundo curso de grado
+- **Idioma de impartición.** Inglés
+- **Software.** R con RStudio
+- **Manual de referencia.** Wooldridge, *Introductory Econometrics: A Modern Approach* (última edición), complementado con Carter, Griffiths y Lim, *Principles of Econometrics*, 5.ª edición.
+- **Evaluación.** Evaluación continua (prácticas y cuestionarios) más un examen final.
