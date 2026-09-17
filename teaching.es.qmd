@@ -15,7 +15,7 @@ lang: es
 
 ### Grado
 
-- [Econometría I (ECOI)](teaching/econometria-i.html): asignatura de grado sobre regresión lineal, inferencia y diagnóstico, impartida en inglés con R.
+- [Econometría I (ECOI)](teaching/econometria-i.es.html): asignatura de grado sobre regresión lineal, inferencia y diagnóstico, impartida en inglés con R.
 - [Técnicas Cuantitativas I (TC1)](teaching/tecnicas-cuantitativas-i.html): asignatura de primer curso sobre estadística descriptiva, probabilidad y series temporales, con prácticas en Excel y R.
 
 :::

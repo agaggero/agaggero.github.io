@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Docencia – Alessio Gaggero</title>
+<title>Econometría I – Alessio Gaggero</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,23 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7aaea03793a50095ac62a930b9d9c168.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-7aaea03793a50095ac62a930b9d9c168.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,8 +71,37 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -82,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Alessio Gaggero</span>
     </a>
   </div>
@@ -92,15 +121,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
+    <a class="nav-link" href="../teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
 </ul>
@@ -120,7 +149,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Docencia</h1>
+<h1 class="title">Econometría I</h1>
+<p class="subtitle lead">Grado en Economía y Grado en ADE — Universidad de Granada</p>
 </div>
 
 
@@ -138,38 +168,45 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div style="text-align: right; margin-bottom: 1em;">
-<p><a href="teaching.html" class="btn btn-sm btn-outline-secondary">View in English</a></p>
+<p><a href="../teaching.es.html" class="btn btn-sm btn-outline-secondary">← Volver a Docencia</a> <a href="econometria-i.html" class="btn btn-sm btn-outline-secondary">View in English</a></p>
 </div>
-<section id="cursos" class="level2">
-<h2 class="anchored" data-anchor-id="cursos">Cursos</h2>
-<div class="columns">
-<div class="column" style="width:48%;">
-<section id="grado" class="level3">
-<h3 class="anchored" data-anchor-id="grado">Grado</h3>
+<p>Asignatura de grado de segundo curso que acompaña al estudiante desde la <em>idea</em> de un modelo econométrico hasta las destrezas prácticas de estimación, inferencia y diagnóstico necesarias para analizar datos económicos reales. Impartida en inglés con R.</p>
+<section id="plantilla-de-capítulo" class="level2">
+<h2 class="anchored" data-anchor-id="plantilla-de-capítulo">Plantilla de capítulo</h2>
+<p>Cada tema sigue la misma estructura de seis secciones:</p>
+<ol type="1">
+<li><strong>Resultados de aprendizaje</strong> — objetivos explícitos</li>
+<li><strong>Pregunta empírica motivadora</strong> — una pregunta real que el tema responde</li>
+<li><strong>Teoría</strong> — conceptos, derivaciones y resultados clave</li>
+<li><strong>Ejemplo resuelto en R</strong> — código completo explicado paso a paso</li>
+<li><strong>Autoevaluación</strong> — cuestionario interactivo</li>
+<li><strong>Ejercicios</strong> — calificados ★ fácil · ★★ medio · ★★★ analítico</li>
+</ol>
+</section>
+<section id="temas" class="level2">
+<h2 class="anchored" data-anchor-id="temas">Temas</h2>
+<ol type="1">
+<li><p><strong><a href="https://agaggero.github.io/econometria-i/chapters/01-conceptos-iniciales.html">Conceptos Iniciales</a>.</strong> Qué es la econometría; correlación frente a causalidad; aleatorización y diseños cuasi-experimentales; datos de corte transversal, series temporales, panel y datos combinados (<em>pooled</em>); análisis exploratorio básico en R.</p></li>
+<li><p><strong><a href="https://agaggero.github.io/econometria-i/chapters/02-regresion-simple.html">El Modelo de Regresión Lineal Simple</a>.</strong> Derivación de MCO; supuestos de Gauss–Markov; insesgadez; la propiedad ELIO (BLUE); <span class="math inline">\(R^2\)</span>; <code>lm()</code> en R.</p></li>
+<li><p><strong><a href="https://agaggero.github.io/econometria-i/chapters/03-regresion-multiple.html">El Modelo de Regresión Lineal Múltiple</a>.</strong> Forma matricial; interpretación <em>ceteris paribus</em>; RLM.1–RLM.5; sesgo por variable omitida; <span class="math inline">\(R^2\)</span> ajustado.</p></li>
+<li><p><strong><a href="https://agaggero.github.io/econometria-i/chapters/04-inferencia.html">Inferencia</a>.</strong> Supuestos del Modelo Lineal Clásico; distribuciones muestrales de <span class="math inline">\(\hat{\beta}_j\)</span>; contrastes <span class="math inline">\(t\)</span>; intervalos de confianza; contrastes <span class="math inline">\(F\)</span> de significación conjunta; <span class="math inline">\(p\)</span>-valores.</p></li>
+<li><p><strong><a href="https://agaggero.github.io/econometria-i/chapters/05-prediccion.html">Predicción y Selección de Modelos</a>.</strong> Predicción puntual y por intervalos; rendimiento dentro y fuera de la muestra; criterios de selección de modelos.</p></li>
+<li><p><strong><a href="https://agaggero.github.io/econometria-i/chapters/06-no-lineal-cualitativa.html">Relaciones No Lineales e Información Cualitativa</a>.</strong> Logaritmos, polinomios e interacciones; variables ficticias (<em>dummy</em>) e interacciones ficticia–continua.</p></li>
+<li><p><strong><a href="https://agaggero.github.io/econometria-i/chapters/07-heterocedasticidad.html">Heterocedasticidad</a>.</strong> Detección (Breusch–Pagan, White); consecuencias para la inferencia; errores estándar robustos a heterocedasticidad; mínimos cuadrados ponderados.</p></li>
+<li><p><strong><a href="https://agaggero.github.io/econometria-i/chapters/08-autocorrelacion.html">Autocorrelación</a>.</strong> Complicaciones en series temporales; Durbin–Watson; errores estándar de Newey–West.</p></li>
+</ol>
+<p><strong>Apéndices</strong> — <a href="https://agaggero.github.io/econometria-i/chapters/apendice-a-prerrequisitos.html">prerrequisitos matemáticos y estadísticos</a> · <a href="https://agaggero.github.io/econometria-i/chapters/apendice-b-crosswalk-wooldridge-cgl.html">crosswalk Wooldridge ↔ Carter–Griffiths–Lim</a> · <a href="https://agaggero.github.io/econometria-i/chapters/apendice-c-tablas.html">tablas estadísticas</a>.</p>
+</section>
+<section id="información-del-curso" class="level2">
+<h2 class="anchored" data-anchor-id="información-del-curso">Información del curso</h2>
 <ul>
-<li><a href="teaching/econometria-i.es.html">Econometría I (ECOI)</a>: asignatura de grado sobre regresión lineal, inferencia y diagnóstico, impartida en inglés con R.</li>
-<li><a href="teaching/tecnicas-cuantitativas-i.html">Técnicas Cuantitativas I (TC1)</a>: asignatura de primer curso sobre estadística descriptiva, probabilidad y series temporales, con prácticas en Excel y R.</li>
+<li><strong>Titulación.</strong> Grado en Economía · Grado en Administración y Dirección de Empresas</li>
+<li><strong>Nivel.</strong> Segundo curso de grado</li>
+<li><strong>Idioma de impartición.</strong> Inglés</li>
+<li><strong>Software.</strong> R con RStudio</li>
+<li><strong>Manual de referencia.</strong> Wooldridge, <em>Introductory Econometrics: A Modern Approach</em> (última edición), complementado con Carter, Griffiths y Lim, <em>Principles of Econometrics</em>, 5.ª edición.</li>
+<li><strong>Evaluación.</strong> Evaluación continua (prácticas y cuestionarios) más un examen final.</li>
 </ul>
-</section>
-</div><div class="column" style="width:4%;">
-
-</div><div class="column" style="width:48%;">
-<section id="posgrado" class="level3">
-<h3 class="anchored" data-anchor-id="posgrado">Posgrado</h3>
-<ul>
-<li>Máster Universitario en Técnicas Cuantitativas en Gestión Empresarial: módulos de <em>Fundamentos Avanzados en Métodos Cuantitativos</em> y <em>Predicción Económica-Empresarial</em>.</li>
-<li><a href="teaching/phd-causal-inference.html">Inferencia Causal</a>: Doctorado — módulos cortos sobre inferencia causal para la microeconometría aplicada.</li>
-</ul>
-</section>
-</div>
-</div>
-<div class="text-center" style="margin: 2em 0; padding: 1em; border-top: 1px solid rgba(255,255,255,0.1); border-bottom: 1px solid rgba(255,255,255,0.1);">
-<p><strong>Estos módulos de doctorado también están disponibles como cursos cortos para otras instituciones, programas de doctorado, centros de investigación, empresas y organismos públicos — en inglés o español.</strong> <a href="mailto:alessiogaggero@ugr.es">Escríbeme</a> para hablarlo.</p>
-</div>
-</section>
-<section id="proyectos-docentes" class="level2">
-<h2 class="anchored" data-anchor-id="proyectos-docentes">Proyectos docentes</h2>
-<p>Estoy desarrollando enfoques de aprendizaje basado en la indagación y socráticos para la enseñanza de métodos cuantitativos a nivel de grado. Más información a medida que el trabajo avance.</p>
 
 
 </section>

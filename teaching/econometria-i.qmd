@@ -4,7 +4,7 @@ subtitle: "Grado en Economía and Grado en ADE — Universidad de Granada"
 ---
 
 ::: {style="text-align: right; margin-bottom: 1em;"}
-[← Back to Teaching](../teaching.html){.btn .btn-sm .btn-outline-secondary}
+[← Back to Teaching](../teaching.html){.btn .btn-sm .btn-outline-secondary} [Ver en español](econometria-i.es.html){.btn .btn-sm .btn-outline-secondary}
 :::
 
 A second-year undergraduate course that walks students from the *idea* of an econometric model to the practical estimation, inference, and diagnostic skills required to analyse real economic data. Taught in English with R.
