@@ -41,4 +41,12 @@ title: Teaching
 
 ## Teaching projects
 
-I'm developing inquiry-based and Socratic approaches to teaching quantitative methods at undergraduate level. More to follow as the work matures.
+I'm developing inquiry-based and Socratic approaches to teaching quantitative methods at undergraduate level.
+
+### GOTiT — a Socratic tutor for conceptual reasoning
+
+**GOTiT** (*Generative Open Tutoring for Inquiry-Based Teaching*) is a no-score Socratic tutor. Rather than checking whether a student picked the right answer, it asks questions to find out whether they understand the concept and can reason about it — surfacing the misunderstandings a graded quiz would miss.
+
+[Open the live demonstration →](https://gotit-showcase.alessiogaggero.workers.dev){.btn .btn-primary target="_blank" rel="noopener"}
+
+[Public demonstration · ten encounters across five disciplines · no sign-up, and no student data is recorded.]{.text-muted}
