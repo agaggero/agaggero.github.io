@@ -42,4 +42,12 @@ lang: es
 
 ## Proyectos docentes
 
-Estoy desarrollando enfoques de aprendizaje basado en la indagación y socráticos para la enseñanza de métodos cuantitativos a nivel de grado. Más información a medida que el trabajo avance.
+Estoy desarrollando enfoques de aprendizaje basado en la indagación y socráticos para la enseñanza de métodos cuantitativos a nivel de grado.
+
+### GOTiT — un tutor socrático para el razonamiento conceptual
+
+**GOTiT** (*Generative Open Tutoring for Inquiry-Based Teaching*) es un tutor socrático sin calificación. En lugar de comprobar si el estudiante ha elegido la respuesta correcta, le hace preguntas para descubrir si comprende el concepto y es capaz de razonar sobre él — sacando a la luz los malentendidos que un test calificado pasaría por alto.
+
+[Abrir la demostración en vivo →](https://gotit-showcase.alessiogaggero.workers.dev){.btn .btn-primary target="_blank" rel="noopener"}
+
+[Demostración pública · diez encuentros en cinco disciplinas · sin registro y sin recoger datos de estudiantes.]{.text-muted}
